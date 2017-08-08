@@ -309,7 +309,7 @@ footer{
     } 
     #wrapper {
         width: auto;
-        height: 500vh;
+        height: 600vh;
     }
     #xing{
         display: none;
@@ -323,7 +323,10 @@ footer{
     #projects{
     width: 100%;
     height: 200vh;
-}
+    }
+    #notmobile{
+        display: none;
+    }
     .column{
         float:none;
         width: 96%;
