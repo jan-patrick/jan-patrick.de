@@ -36,6 +36,7 @@ a:hover{
 } 
 h1{
     font-size: 4rem;
+    background: none;
 }
 h2{
     font-size: 1.47rem;
@@ -73,7 +74,7 @@ footer{
 #titel{
     height: auto;
     width:96%;    
-    background: #000000;
+    background: none;
     margin: 1%;
     padding:1%;
     opacity: 1;
