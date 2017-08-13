@@ -262,27 +262,10 @@ footer{
     width: auto;
     margin: auto;
     padding: auto;
-    margin-top: 47vh;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    transition: 0.5s;
-      animation: pulsate 3s ease-out;
-  animation-iteration-count: infinite;    
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-}
-
-@keyframes pulsate {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.1);
-  }
-  100% {
-    transform: scale(1);
-  }
+    margin-top: 47vh;    
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
 }
 
 #loadingtext:hover{
