@@ -259,13 +259,16 @@ footer{
 #loadingtext{
     font-size: 1.47rem;
     color: #ffffff;
-    width: auto;
+    width: 100vw;
     margin: auto;
     padding: auto;
-    margin-top: 47vh;    
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
+    margin-top: 47vh;;    
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    transition: 0.5s;
+    display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 #loadingtext:hover{
