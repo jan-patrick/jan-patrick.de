@@ -259,7 +259,8 @@ footer{
 #loadingtext{
     font-size: 1.47rem;
     color: #ffffff;
-    width: 100vw;
+    height: 10vh;
+    width: auto;
     margin: auto;
     padding: auto;
     margin-top: 47vh;;    
