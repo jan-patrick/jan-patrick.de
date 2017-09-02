@@ -69,17 +69,17 @@
             <h2>IoT student at <a id="hfg" href="http://www.hfg-gmuend.de" target="_blank">HfG</a> Schwäbisch Gmünd.</h2>
         </div>
         <nav class="navfixed">
-            <a href="#" data-section="home" class="nai"> 
+            <a href="#" data-section="home" class="nai" class="onhome"> 
                 <div>
                     Home
                 </div>
             </a>
-            <a href="#projects" data-section="projects" class="nai">
+            <a href="#projects" data-section="projects" class="nai" class="onprojects">
                 <div>
                         Projects
                 </div> 
             </a>
-            <a href="#aboutme" data-section="aboutme" class="nai">
+            <a href="#aboutme" data-section="aboutme" class="nai" class="onaboutme">
                 <div>
                     About me
                 </div>
@@ -148,9 +148,10 @@
            $('nav').removeClass('navfixed');
                  $('.start').removeClass('scrollll');
                  $('.tititiel').removeClass('whenscrollon');
+                 $('.start').removeClass('scrollll');
        });          
 	   $(window).bind('scroll', function() {
-			 if ($(window).scrollTop() > $( window ).height()-765) {
+			 if ($(window).scrollTop() > $( window ).height()-655) {
 				 $('nav').addClass('navfixed');
                  $('.start').addClass('scrollll');
 			 }
