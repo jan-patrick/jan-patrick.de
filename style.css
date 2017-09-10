@@ -233,7 +233,25 @@ footer{
 #seo{
   display: none;
 }
+.amnetworks {
+    height: 5vh;
+    width: 5vh;    
+    background: none; 
+    opacity: 1;  
+    border-radius: 5%;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    transition: 0.5s;
+    float: left;
+    fill: black;
+    margin-right: 2vh;
+}
+.amnetworks:hover{
+    transform: scale(1.1);
+    background-color: #151111;    
+}
 #construction{
+  text-align: center;
   animation: pulsate 10s ease-out;
   animation-iteration-count: infinite;    
   transform: translate(-50%, -50%);
@@ -273,7 +291,7 @@ footer{
 }
 
 #loadingtext:hover{
-    transform: scale(1.1);    
+    transform: scale(1.1);   
 }
 
 @media handheld, only screen and (max-width:1320px){
@@ -289,6 +307,12 @@ footer{
     .signal {
         display: none;
     } 
+    #construction{
+        animation: none;      
+        transform: none;
+        -webkit-transform: none;
+        -moz-transform: none; 
+    }
 }
 @media handheld, only screen and (max-width:1040px){
     nav{
