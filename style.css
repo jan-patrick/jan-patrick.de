@@ -47,7 +47,11 @@ h3{
     margin-bottom: 1%;
 }
 p{
-    line-height: 1.2rem;
+    line-height: 1.4rem;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
 }
 path{
     fill: #ffffff;
