@@ -52,7 +52,7 @@ nav{
     height: auto;
     min-height: 6.2vh;
     width:78%;    
-    background: #ffffff;
+    background: transparent;
     margin: 1%;
     margin-top: 1%;
     padding:0%;
@@ -129,7 +129,7 @@ footer{
     background: none;
     margin: 1%;
     padding:1%;
-    padding-top: 5%;
+    padding-top: 6%;
     padding-bottom: 6%;
     opacity: 1;
     text-align: center;
@@ -225,13 +225,13 @@ footer{
     height: auto;
     margin: 1%;
     padding:1%;
-    background: #fff;
+    background: #ffffff;
 }
 .nai {
     float: left;
     width: 30%;
     height: auto;
-    margin: 1% 1% 1% auto;
+    margin: 1.3% auto 1% auto;
     padding:1%;
     text-align: center;
     background: transparent;
@@ -239,6 +239,8 @@ footer{
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
     transition: 0.5s;
+    border: solid #ffffff;
+    color: #ffffff;
 }
 .nai:hover {
     text-decoration: none;
@@ -248,24 +250,21 @@ footer{
     height: auto;
     padding:1%;
     text-align: center;
-    background: linear-gradient(-45deg, #151111, #221e1e, #272222, #2c2525);
-	background-size: 400% 400%;
-	-webkit-animation: Gradient 15s ease infinite;
-	-moz-animation: Gradient 15s ease infinite;
-	animation: Gradient 15s ease infinite;
+    color: #151111;
+    border: solid #151111;
 }
 .activenav{
     text-decoration: underline;
 }
 .sectionstart{
-    height: 10vh;
+    height: 9.1vh;
 }
 .start{
-    height: 10vh;
+    height: 9.1vh;
     display: none;
 }
 .scrollll{
-    height: 10vh;
+    height: 9.1vh;
     display: inherit;
 }
 .imprint{
