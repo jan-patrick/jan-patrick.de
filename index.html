@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JAN SCHNEIDER</title>
+    <title>jan schneider</title>
     <meta charset="UTF-8">
     <meta name="language" content="English, EN">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -63,7 +63,7 @@
         </nav>
         <div id="inhalt">
             <section id="home">
-                <br><br><br><div id="construction">Still under construction.</div>
+                <br><br><br><div id="construction">Hi! Nice to meet you.</div>
             </section>
             <section id="projects">
                 <div class="sectionstart">
@@ -91,13 +91,7 @@
                     <img src="images/website.jpg" width="100%" height="auto">
                     <p>My website, this website, is still under development. You can see changes if you visit again, maybe visible or invisible in the  
                     <a class="normallink" target="_blank" href="https://github.com/JanPSchneider/jan-patrick.de">Code</a>.</p>                                    
-                </div>
-                <div class="column" id="notmobile">
-                    <h3>adjustable squares</h3>
-                    <img src="images/javascriptexamplesose17.jpg" width="100%" height="auto">
-                    <p>I created some figures out of squares in Javascript. They were adjustable by mouse. You can find out more 
-                    <a class="normallink" target="_blank" href="https://iot.hfg-gmuend.de/Members/jan_schneider/meine-projekte/semesterausstellungsanimationen-interaktive-gestaltungsgrundlagen">here</a>.</p>                
-                </div>                
+                </div>              
             </section>
             <section id="aboutme">
                 <div class="sectionstart">
@@ -132,22 +126,26 @@
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
 <script>
-   $(document).ready(function(){
-       $(window).bind('load', function() {
-           $('nav').removeClass('navfixed');
-                 $('.start').removeClass('scrollll');
-                 $('.tititiel').removeClass('whenscrollon');
-                 $('.start').removeClass('scrollll');
-       });          
-	   $(window).bind('scroll', function() {
-			 if ($(window).scrollTop() > $( window ).height()-655) {
-				 $('nav').addClass('navfixed');
-                 $('.start').addClass('scrollll');
-			 }
-			 else {
-				 $('nav').removeClass('navfixed');
-                 $('.start').removeClass('scrollll');
-			 }
+    $(document).ready(function(){
+        $(window).bind('load', function() {
+            $('nav').removeClass('navfixed');
+                $('.start').removeClass('scrollll');
+                $('.tititiel').removeClass('whenscrollon');
+                $('.start').removeClass('scrollll');
+        });          
+	    $(window).bind('scroll', function() {
+			if ($(window).scrollTop() > $( window ).height()-655) {
+				$('nav').addClass('navfixed');
+                $('.start').addClass('scrollll');
+            }
+            else if ($(window).scrollTop() > $( window ).height()-555) {
+                $('#logo').attr({display: none});
+            }   
+			else {
+				$('nav').removeClass('navfixed');
+                $('.start').removeClass('scrollll');
+                $('#logo').attr({display: flex});
+			}
 		});
 	});
 </script>  

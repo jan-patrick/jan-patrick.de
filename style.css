@@ -37,16 +37,20 @@ table {
 
 
 /*
-* Start creating Jans website from skretch:
+* Start creating Jans website from skretch: #151111;
 */
 
 html{
     font-family: 'Source Sans Pro', sans-serif;
-    background: #151111;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
 }
 nav{
     height: auto;
-    min-height: 5.7vh;
+    min-height: 6.2vh;
     width:78%;    
     background: #ffffff;
     margin: 1%;
@@ -66,7 +70,7 @@ nav{
     z-index: 10;
     -webkit-transition: 0.5s;
     -moz-transition:0.5s;
-    transition: 0.5s;
+    transition: 0.5s
 }
 a{
     text-decoration: none;
@@ -89,11 +93,13 @@ h3{
     margin-bottom: 1%;
 }
 p{
-    line-height: 1.4rem;
+    line-height: 1.6rem;
+    font-size: 1.2rem;
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
     -ms-hyphens: auto;
     hyphens: auto;
+    color: #151111;
 }
 path{
     fill: #ffffff;
@@ -146,6 +152,7 @@ footer{
     margin-right:1%; 
     transform-style: flat;
     font-size: 1.47rem;
+    display: none;
 }
 #logo:hover{
     transform: scale(1.1);   
@@ -214,6 +221,7 @@ footer{
 .column {
     float: left;
     width: 46%;
+    min-height: 20.5%;
     height: auto;
     margin: 1%;
     padding:1%;
@@ -223,11 +231,11 @@ footer{
     float: left;
     width: 30%;
     height: auto;
-    margin: 1% 1% auto auto;
+    margin: 1% 1% 1% auto;
     padding:1%;
     text-align: center;
-    background: #fff;
-    font-size: 1rem;
+    background: transparent;
+    font-size: 1.3rem;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
     transition: 0.5s;
@@ -240,21 +248,24 @@ footer{
     height: auto;
     padding:1%;
     text-align: center;
-    background: #151111;
-    color: #ffffff;
+    background: linear-gradient(-45deg, #151111, #221e1e, #272222, #2c2525);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
 }
 .activenav{
     text-decoration: underline;
 }
 .sectionstart{
-    height: 7.6vh;
+    height: 10vh;
 }
 .start{
-    height: 7.6vh;
+    height: 10vh;
     display: none;
 }
 .scrollll{
-    height: 7.6vh;
+    height: 10vh;
     display: inherit;
 }
 .imprint{
@@ -298,7 +309,7 @@ footer{
 }
 #construction{
     text-align: center;
-    animation: pulsate 10s ease-out;
+    animation: pulsate 15s ease-out;
     animation-iteration-count: infinite;    
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
@@ -315,6 +326,42 @@ footer{
     100% {
         transform: scale(1);
     }
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
 }
 
 #page{
@@ -363,6 +410,12 @@ footer{
     }
 }
 @media handheld, only screen and (max-width:1040px){
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 0.73rem;
+    }
     nav{
         min-height: 4.1vh;
     }
@@ -379,12 +432,6 @@ footer{
         min-height: 4.5vh;
         padding-right: 1%;
         padding-left: 1%;
-    }
-    h1{
-        font-size: 2rem;
-    }
-    h2{
-        font-size: 0.73rem;
     }
     iframe{
         height: 100%;
