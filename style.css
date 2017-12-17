@@ -44,9 +44,9 @@ html{
     font-family: 'Source Sans Pro', sans-serif;
     background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
 	background-size: 400% 400%;
-	-webkit-animation: Gradient 15s ease infinite;
-	-moz-animation: Gradient 15s ease infinite;
-	animation: Gradient 15s ease infinite;
+	-webkit-animation: Gradient 30s ease infinite;
+	-moz-animation: Gradient 30s ease infinite;
+	animation: Gradient 30s ease infinite;
 }
 nav{
     height: auto;
@@ -321,7 +321,7 @@ footer{
         transform: scale(1);
     }
     50% {
-        transform: scale(1.1);
+        transform: scale(1.15);
     }
     100% {
         transform: scale(1);
@@ -429,9 +429,9 @@ footer{
 @media handheld, only screen and (max-width: 800px){
     nav{
         width:96%;
-        min-height: 4.5vh;
-        padding-right: 1%;
-        padding-left: 1%;
+        min-height: 5vh;
+        padding-right: 0%;
+        padding-left: 0%;
     }
     iframe{
         height: 100%;
@@ -442,7 +442,7 @@ footer{
     } 
     #wrapper {
         width: auto;
-        height: 600vh;
+        height: 700vh;
     }
     #xing{
         display: none;
@@ -463,6 +463,7 @@ footer{
     .column{
         float:none;
         width: 96%;
+        min-height: 5%;
     }
     .nai {
         width: 30%;
