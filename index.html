@@ -6,13 +6,13 @@
     <meta name="language" content="English, EN">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="reset.css">
+    <script src="main.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta name="description" content="Website of Jan Schneider, IoT student at HfG Schwäbisch Gmünd."> 
     <meta name="keywords" content="Jan Schneider, HfG, IoT, Internet der Dinge, Student, Hochschule für Gestaltung, Schwäbisch Gmünd, Gmünd, Internet of Things, Bachelor of Arts, Kikife, Kulturbüro, FSJ, Jan-Patrick, Jan, Schneider">
-    <link rel="shortcut icon" href="logo.png">
-    <link rel="icon" type="image/png" href="logo.svg">
-    <link rel="image_src" href="logo.svg" />
+    <link rel="shortcut icon" href="images/logo.png">
+    <link rel="icon" type="image/png" href="images/logo.svg">
+    <link rel="image_src" href="images/logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
 <script>
@@ -23,39 +23,15 @@
 
   ga('create', 'UA-100593952-1', 'auto');
   ga('send', 'pageview');
-
 </script>
 
 </head>
 
 
 <body>
-
-<script>
-  function onReady(callback) {
-      var intervalID = window.setInterval(checkReady, 1000);
-
-      function checkReady() {
-          if (document.getElementsByTagName('body')[0] !== undefined) {
-              window.clearInterval(intervalID);
-              callback.call(this);
-          }
-      }
-  }
-
-  function show(id, value) {
-      document.getElementById(id).style.display = value ? 'block' : 'none';
-  }
-
-  onReady(function () {
-      show('page', true);
-      show('loading', false);
-  });
-</script>
-
 <div id="loading">
     <svg version="1.1" id="loadingtext" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" height="100%" width="auto" viewBox="0 0 113 113" enable-background="new 0 0 113 113" xml:space="preserve"><path d="M103.779,56.799c-4.762-3.612-6.916-4.128-26.418-9.804c-9.977-2.709-16.254-5.573-16.254-13.829 c0-9.288,8.318-15.067,19.656-15.067c8.049,0,16.668,2.58,17.234,14.189h11.791c-0.227-3.87-0.453-10.19-4.988-15.867 c-6.576-8.126-17.574-9.159-23.018-9.159c-15.42,0-32.207,8.606-32.207,27.569v40.878c0,2.1,0.001,4.466,0,7.308 c-0.909,8.277-8.837,13.405-19.453,13.486c-8.049,0.061-16.687-2.454-17.342-14.059l-11.791,0.09 c0.256,3.868,0.53,10.187,5.108,15.828c6.638,8.076,17.644,9.025,23.086,8.984c9.987-0.076,20.515-3.772,26.658-11.516l0.083,0.128 c6.764,7.636,17.76,9.678,23.491,9.678c20.977,0,32.525-13.752,32.525-30.264C111.943,71.505,111.376,62.475,103.779,56.799z M80.759,94.5c-18.822,0-19.426-13.216-19.652-19.667H61.01l-0.468-21.035c4.061,2.585,9.677,4.155,20.788,7.258 c11.451,3.225,18.822,5.289,18.822,15.738C100.152,81.438,97.767,94.5,80.759,94.5z"/></svg>
-    </div>
+</div>
 
 <div id="page">   
     <div id="seo">
@@ -100,25 +76,25 @@
                 </div>  
                 <div class="column">
                     <h3>LostBrick</h3>
-                    <img src="lostbrick.jpg" width="100%" height="auto">
+                    <img src="images/lostbrick.jpg" width="100%" height="auto">
                     <p>LostBrick is a small gravity changing game, where a small brick must find his way back home. It was developed at HfG Schwäbisch Gmünd in "3-dim. Grundlagen im medialen Raum". You find more information about this project 
                     <a class="normallink" target="_blank" href="https://iot.hfg-gmuend.de/Members/jan_schneider/meine-projekte/lostbrick">here</a>. The code and the downloadable game you can find <a class="normallink" target="_blank" href="https://github.com/JanPSchneider/LostBrick">here</a>.</p>                                    
                 </div>
                 <div class="column">
                     <h3>Reels - autonomous tabletop soccer player</h3>
-                    <img src="kickerprojekt.jpg" width="100%" height="auto">
+                    <img src="images/kickerprojekt.jpg" width="100%" height="auto">
                     <p>As a basic technological project, I built an autonomous tabletop soccer player in a team with two fellow students. It recognizes the ball completely on it's own and plays it randomly to the chosen target player.<br><br>
                     <a class="normallink" target="_blank" href="https://iot.hfg-gmuend.de/Members/jan_schneider/meine-projekte/wheels-autonomer-tischkickerspieler">More</a> (German) or <a class="normallink" target="_blank" href="https://iot.hfg-gmuend.de/author/jan_schneider">more Projects</a>.</p>
                 </div>       
                 <div class="column">
                     <h3>Website</h3>
-                    <img src="website.jpg" width="100%" height="auto">
+                    <img src="images/website.jpg" width="100%" height="auto">
                     <p>My website, this website, is still under development. You can see changes if you visit again, maybe visible or invisible in the  
                     <a class="normallink" target="_blank" href="https://github.com/JanPSchneider/jan-patrick.de">Code</a>.</p>                                    
                 </div>
                 <div class="column" id="notmobile">
                     <h3>adjustable squares</h3>
-                    <img src="javascriptexamplesose17.jpg" width="100%" height="auto">
+                    <img src="images/javascriptexamplesose17.jpg" width="100%" height="auto">
                     <p>I created some figures out of squares in Javascript. They were adjustable by mouse. You can find out more 
                     <a class="normallink" target="_blank" href="https://iot.hfg-gmuend.de/Members/jan_schneider/meine-projekte/semesterausstellungsanimationen-interaktive-gestaltungsgrundlagen">here</a>.</p>                
                 </div>                
@@ -133,7 +109,7 @@
                     <p>Have a look and find me on <a class="normallink" target="_blank" href="https://www.linkedin.com/in/schneider-jan">LinkedIn</a> and <a class="normallink" target="_blank" href="https://www.xing.com/profile/Jan_Schneider139">Xing</a>.<br><br><br></p>                               
                 </div>
                 <div class="column">
-                    <img src="schneiderjan.jpg" width="100%" height="auto">                
+                    <img src="images/schneiderjan.jpg" width="100%" height="auto">                
                 </div>
             </section>
         </div>
