@@ -612,10 +612,45 @@ a.active {
     opacity: 1;
 }
 
+.animatedModal2-on .close-popup-modal {
+    opacity: 1;
+}
+
+.animatedModal3-on .close-popup-modal {
+    opacity: 1;
+}
+
+.animatedModal4-on .close-popup-modal {
+    opacity: 1;
+}
+
+.animatedModal5-on .close-popup-modal {
+    opacity: 1;
+}
+
+.animatedModal6-on .close-popup-modal {
+    opacity: 1;
+}
+
+.animatedModal7-on .close-popup-modal {
+    opacity: 1;
+}
+
+.animatedModal8-on .close-popup-modal {
+    opacity: 1;
+}
+
+.animatedModal9-on .close-popup-modal {
+    opacity: 1;
+}
+
+
+
 .modal-content h2 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 40px;
     line-height: 50px;
+    font-weight: bold;
 }
 
 
