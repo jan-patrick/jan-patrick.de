@@ -5,7 +5,7 @@
 <br>
 <br>
 <p align="center">
-  These are the files of my private <a href="http://jan-patrick.de">website</a>.
+  These are the files of my private <a href="https://www.jan-patrick.de">website</a>.
   <br>
   Google Analytics is implemented. 
   <br><br>
