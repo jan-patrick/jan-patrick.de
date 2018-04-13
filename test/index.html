@@ -14,6 +14,7 @@
     <meta name="description" content="The CV of Jan Schneider, currently IoT student at HfG Schwäbisch Gmünd"> 
     <meta name="keywords" content="Jan Schneider, HfG, IoT, Internet der Dinge, Student, Hochschule für Gestaltung, Schwäbisch Gmünd, Gmünd, Internet of Things, Bachelor of Arts, Kikife, Kulturbüro, FSJ, Jan-Patrick, Jan, Schneider">
 
+    <script src="notification.js" defer></script>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -40,33 +41,16 @@
     </script>
 </head>      
 <body>
-<?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "person02";
+    <!--Benachrichtiungen......................................... -->
+    <h1>Testseite zu <a href="https://www.jan-patrick.de" target="_blank">Jans Internetseite</a></h1>
+    <h4>Einfache Benachrichtigungen</h4>
+	<form action="#">
+		<textarea></textarea>
+		<button>Benachrichtigung senden</button>
+    </form>
 
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-
-$sql = "SELECT osm_id, ort, plz FROM .ort";
-$result = $conn->query($sql);
-
-if ($result->num_rows > 0) {
-    // output data of each row
-    while($row = $result->fetch_assoc()) {
-        echo "<br> id: ". $row["osm_id"]. " - Name: ". $row["ort"]. " " . $row["plz"] . "<br>";
-    }
-} else {
-    echo "0 results";
-}
-
-$conn->close();
-?>
-
+    <!--PHP....................................................... -->
+    <h4>MySQL Auslese</h4>
+    <?php include ("justshow.php"); ?>
 </body>
 </html>

@@ -1,0 +1,1 @@
+<?php echo 'PHP? Funktioniert! Version ist: ', phpversion(), "\n"; ?>
