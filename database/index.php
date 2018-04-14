@@ -1,3 +1,25 @@
+<?php
+require_once "data.php";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+$sql = 'SELECT * 
+		FROM ort 
+        WHERE plz ';
+		
+$query = mysqli_query($conn, $sql);
+
+if (!$query) {
+	die ('SQL Error: ' . mysqli_error($conn));
+}
+?>
+
+<html>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,29 +31,42 @@
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
 <meta name="description" content="The CV of Jan Schneider, currently IoT student at HfG Schwäbisch Gmünd"> 
 <meta name="keywords" content="Jan Schneider, HfG, IoT, Internet der Dinge, Student, Hochschule für Gestaltung, Schwäbisch Gmünd, Gmünd, Internet of Things, Bachelor of Arts, Kikife, Kulturbüro, FSJ, Jan-Patrick, Jan, Schneider">
-
-<a href="https://www.jan-patrick.de/test">to TEST page</a>
-<?php
-require_once "data.php";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-
-$sql = "SELECT osm_id, ort, plz FROM .ort";
-$result = $conn->query($sql);
-
-if ($result->num_rows > 0) {
-    // output data of each row
-    while($row = $result->fetch_assoc()) {
-        echo "<br> id: ". $row["osm_id"]. " - Name: ". $row["ort"]. " " . $row["plz"] . "<br>";
-    }
-} else {
-    echo "0 results";
-}
-
-$conn->close();
-?>
+<link href="styledatabase.css" rel="stylesheet">
+<head>
+</head>
+<body>
+<p><a href="https://www.jan-patrick.de/test">to TEST page</a></p>
+<h1>personen02</h1>
+	<table class="data-table">
+		<caption class="title">ort</caption>
+		<thead>
+			<tr>
+				<th>NO</th>
+				<th>osm_id</th>
+				<th>ort</th>
+				<th>plz</th>
+                <th>landkreis</th>
+                <th>bundesland</th>
+			</tr>
+		</thead>
+		<tbody>
+		<?php
+		$no 	= 1;
+		$total 	= 20;
+		while ($row = mysqli_fetch_array($query) )
+		{
+			$amount  = $row['amount'] == 0 ? '' : number_format($row['amount']);
+			echo '<tr>
+					<td>'.$no.'</td>
+					<td>'.$row['osm_id'].'</td>
+					<td>'.$row['ort'].'</td>
+					<td>'.$row['plz'].'</td>
+                    <td>'.$row['landkreis'].'</td>
+                    <td>'.$row['bundesland'].'</td>
+				</tr>';
+			$no++;
+		}?>
+		</tbody>
+	</table>
+    </body>
+</html>
