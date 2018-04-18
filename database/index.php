@@ -9,8 +9,8 @@ if ($conn->connect_error) {
 }
 
 $sql = 'SELECT * 
-		FROM ort 
-        WHERE plz ';
+		FROM test 
+         ';
 		
 $query = mysqli_query($conn, $sql);
 
@@ -36,17 +36,15 @@ if (!$query) {
 </head>
 <body>
 <p><a href="https://www.jan-patrick.de/test">to TEST page</a></p>
-<h1>personen02</h1>
+<h1>test turn database</h1>
 	<table class="data-table">
-		<caption class="title">ort</caption>
+		<caption class="title">ESP sends test data</caption>
 		<thead>
 			<tr>
 				<th>NO</th>
-				<th>osm_id</th>
-				<th>ort</th>
-				<th>plz</th>
-                <th>landkreis</th>
-                <th>bundesland</th>
+				<th>id</th>
+				<th>player</th>
+				<th>turn</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -55,14 +53,11 @@ if (!$query) {
 		$total 	= 20;
 		while ($row = mysqli_fetch_array($query) )
 		{
-			$amount  = $row['amount'] == 0 ? '' : number_format($row['amount']);
 			echo '<tr>
 					<td>'.$no.'</td>
-					<td>'.$row['osm_id'].'</td>
-					<td>'.$row['ort'].'</td>
-					<td>'.$row['plz'].'</td>
-                    <td>'.$row['landkreis'].'</td>
-                    <td>'.$row['bundesland'].'</td>
+					<td>'.$row['id'].'</td>
+					<td>'.$row['player'].'</td>
+					<td>'.$row['turn'].'</td>
 				</tr>';
 			$no++;
 		}?>
