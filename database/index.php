@@ -10,6 +10,7 @@ if ($conn->connect_error) {
 
 $sql = 'SELECT * 
 		FROM test 
+		ORDER BY id
          ';
 		
 $query = mysqli_query($conn, $sql);
