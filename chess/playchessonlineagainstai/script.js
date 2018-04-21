@@ -275,9 +275,9 @@ var removeGreySquares = function() {
 var greySquare = function(square) {
     var squareEl = $('#board .square-' + square);
 
-    var background = '#a9a9a9';
+    var background = '#c7ddf9';
     if (squareEl.hasClass('black-3c85d') === true) {
-        background = '#696969';
+        background = '#4b5c72';
     }
 
     squareEl.css('background', background);
