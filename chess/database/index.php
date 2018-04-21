@@ -20,10 +20,10 @@ if (!$query) {
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>DATABASE - Jan Schneider</title>
-<link rel="shortcut icon" href="../img/logo.png">
-<link rel="icon" type="imgage/png" href="../img/logo.svg">
-<link rel="image_src" href="../img/logo.svg" />
-<link rel="apple-touch-icon" href="../img/logo.png" />
+<link rel="shortcut icon" href="../../img/logo.png">
+<link rel="icon" type="imgage/png" href="../../img/logo.svg">
+<link rel="image_src" href="../../img/logo.svg" />
+<link rel="apple-touch-icon" href="../../img/logo.png" />
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
 <meta name="description" content="The CV of Jan Schneider, currently IoT student at HfG Schwäbisch Gmünd"> 
 <meta name="keywords" content="Jan Schneider, HfG, IoT, Internet der Dinge, Student, Hochschule für Gestaltung, Schwäbisch Gmünd, Gmünd, Internet of Things, Bachelor of Arts, Kikife, Kulturbüro, FSJ, Jan-Patrick, Jan, Schneider">

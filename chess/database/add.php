@@ -1,5 +1,4 @@
-<?php
-	
+<?php	
 	// Include the MySQL-Connector
 	include("../connect.php");
    	
