@@ -20,6 +20,20 @@ var updateByCode = function() {
     window.setTimeout(makeBestMove, 250);
 };
 
+var showBestMove = function () {
+    var bestMove = getBestMove(game);
+    game.ugly_move(bestMove);
+    board.position(game.fen());
+    renderMoveHistory(game.history());
+    if (game.game_over()) {
+        alert('Game over');
+    }
+    if (game.in_checkmate() === true || game.in_draw() === true ||
+        piece.search(/^b/) !== -1) {
+        return false;
+    }
+};
+
 var minimaxRoot =function(depth, game, isMaximisingPlayer) {
 
     var newGameMoves = game.ugly_moves();
