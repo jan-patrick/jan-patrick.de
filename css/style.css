@@ -797,6 +797,9 @@ fieldset {
     color: rgb(23, 54, 167);
 }
 
+.typewrite {
+    color: #ffffff;
+}
 
 /* Responsive media queries
 ==================================================*/
