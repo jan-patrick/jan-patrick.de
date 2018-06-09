@@ -6,8 +6,6 @@
 <br>
 <p align="center">
   These are the files of my private <a href="https://jan-patrick.de">website</a>.
-  <br>
-  Google Analytics is implemented. 
   <br><br>
   It is under permanent construction.
   <br>
