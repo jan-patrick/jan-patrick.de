@@ -112,7 +112,7 @@ $(document).ready(function () {
         // INJECT CSS
         var css = document.createElement("style");
         css.type = "text/css";
-        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #9E99C0}";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #525153}";
         document.body.appendChild(css);
     };
 
