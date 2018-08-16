@@ -23,7 +23,7 @@ h4 {
     text-transform: capitalize;
     letter-spacing: 2px;
     position: relative;
-    color: rgb(82,81,83);
+    color: rgb(30, 20, 138);
     margin-left: 40px;
     font-weight: 700;
 }
@@ -35,7 +35,7 @@ h4:before {
     content: "";
     display: block;
     height: 2px;
-    background: rgb(82,81,83);
+    background: rgb(30, 20, 138);
     top: 9px;
 }
 
@@ -115,7 +115,7 @@ body {
     width: 100%;
     -webkit-animation: rotation 1s linear infinite;
     animation: rotation 1s linear infinite;
-    border: 2px solid rgb(82,81,83);
+    border: 2px solid rgb(30, 20, 138);
     border-top: 2px solid transparent;
     border-radius: 100%
 }
@@ -257,12 +257,12 @@ a:focus {
 }
 
 a:hover {
-    color: rgb(82,81,83);
+    color: rgb(30, 20, 138);
     text-decoration: none;
 }
 
 a.active {
-    color: rgb(82,81,83);
+    color: rgb(30, 20, 138);
 }
 
 
@@ -299,7 +299,7 @@ a.active {
 
 .about-border {
     position: absolute;
-    border: 10px solid rgb(82,81,83);
+    border: 10px solid rgb(30, 20, 138);
     width: 400px;
     height: 400px;
     top: 40px;
@@ -325,7 +325,7 @@ a.active {
     font-family: 'Source Sans Pro', sans-serif;
     text-transform: capitalize;
     letter-spacing: 2px;
-    color: rgb(82,81,83);
+    color: rgb(30, 20, 138);
     font-size: 16px;
     font-weight: bold
 }
@@ -365,11 +365,11 @@ a.active {
 .timeline-event:hover .timeline-event-icon {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    background-color: rgb(82,81,83);
+    background-color: rgb(30, 20, 138);
 }
 
 .timeline-event:hover .timeline-event-thumbnail {
-    box-shadow: inset 40em 0 0 0 rgb(82,81,83);
+    box-shadow: inset 40em 0 0 0 rgb(30, 20, 138);
 }
 
 .timeline-event-copy {
@@ -404,7 +404,7 @@ a.active {
     transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
-    background-color: rgb(82,81,83);
+    background-color: rgb(30, 20, 138);
     outline: 10px solid #f3f3f3;
     display: block;
     margin: 0.5em 0.5em 0.5em -0.5em;
@@ -427,7 +427,7 @@ a.active {
     font-size: 12px;
     font-weight: bold;
     background-color: black;
-    box-shadow: inset 0 0 0 0em rgb(82,81,83);
+    box-shadow: inset 0 0 0 0em rgb(30, 20, 138);
     display: inline-block;
     margin-bottom: 1.2em;
     padding: 0.25em 1em 0.2em 1em;
@@ -467,7 +467,7 @@ a.active {
 }
 
 .portfolio .categories-grid .categories ul li a.active {
-    background-color: rgb(82,81,83);
+    background-color: rgb(30, 20, 138);
     padding: 0px 20px;
     color: white;
     text-decoration: none;
@@ -490,7 +490,7 @@ a.active {
     left: 0px;
     height: 100%;
     width: 100%;
-    background-color: rgb(82,81,83);
+    background-color: rgb(30, 20, 138);
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     opacity: 0;
@@ -525,7 +525,7 @@ a.active {
 .portfolio_item .portfolio_item_hover .item_info em {
     font-style: normal;
     display: inline-block;
-    background-color: rgb(82,81,83);
+    background-color: rgb(30, 20, 138);
     padding: 5px 20px;
     color: #fff;
     margin-top: 10px;
@@ -747,11 +747,11 @@ fieldset {
 }
 
 #success p {
-    color: rgb(82,81,83);
+    color: rgb(30, 20, 138);
     font-size: 15px;
     text-align: center;
     padding: 10px;
-    border: 2px solid rgb(82,81,83);
+    border: 2px solid rgb(30, 20, 138);
     margin-top: 10px;
 }
 
@@ -765,7 +765,7 @@ fieldset {
 }
 
 #submit {
-    background-color: rgb(82,81,83);
+    background-color: rgb(30, 20, 138);
     color: #fff;
     padding: 10px 40px;
     border-radius: 0;
@@ -794,7 +794,7 @@ fieldset {
 }
 
 .social li a:hover {
-    color: rgb(82,81,83);
+    color: rgb(30, 20, 138);
 }
 
 .typewrite {
@@ -808,7 +808,7 @@ fieldset {
 }
 
 #homesocial li a:hover{
-    color: rgb(82,81,83);
+    color: rgb(30, 20, 138);
     opacity: 1;
 }
 
