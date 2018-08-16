@@ -161,7 +161,6 @@ $(document).ready(function () {
     $("#demo02").animatedModal2();
     $("#demo03").animatedModal3();
     $("#demo04").animatedModal4();
-    $("#demo05").animatedModal5();
     $("#demo06").animatedModal6();
     $("#demo07").animatedModal7();
     $("#demo08").animatedModal8();
