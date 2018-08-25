@@ -163,7 +163,6 @@ $(document).ready(function () {
     $("#demo06").animatedModal6();
     $("#demo07").animatedModal7();
     $("#demo08").animatedModal8();
-    $("#demo09").animatedModal9();
 
     // Contact Form 	
 
