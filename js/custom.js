@@ -160,7 +160,6 @@ $(document).ready(function () {
     $("#demo01").animatedModal();
     $("#demo04").animatedModal4();
     $("#demo06").animatedModal6();
-    $("#demo07").animatedModal7();
     $("#demo08").animatedModal8();
 
     // Contact Form 	
