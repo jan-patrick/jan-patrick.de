@@ -158,7 +158,6 @@ $(document).ready(function () {
 
     //animatedModal
     $("#demo01").animatedModal();
-    $("#demo03").animatedModal3();
     $("#demo04").animatedModal4();
     $("#demo06").animatedModal6();
     $("#demo07").animatedModal7();
