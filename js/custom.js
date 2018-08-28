@@ -158,7 +158,6 @@ $(document).ready(function () {
 
     //animatedModal
     $("#demo04").animatedModal4();
-    $("#demo06").animatedModal6();
 
     // Contact Form 	
 
