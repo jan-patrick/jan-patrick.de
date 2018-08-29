@@ -69,6 +69,7 @@
     <!-- header -->
     <header class="navbar-fixed-top">
         <nav>
+            <a id="back-link" onclick="backbutton()"><ion-icon name="arrow-back"></ion-icon></a>
             <ul>
                 <li><a href="https://jan-patrick.de/#projects">projects</a></li>
                 <li><a href="https://jan-patrick.de/#about">about</a></li>
@@ -141,6 +142,16 @@
 
     <!--  main script  -->
     <script src="../../js/custom.js"></script>
+
+    <script>
+            function backbutton() {
+        if (document.referrer == "") {
+            window.open ('https://jan-patrick.de','_self',false)
+        } else {
+            history.back()
+        }
+    }
+            </script>
 </body>
 
 </html>
