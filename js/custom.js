@@ -156,11 +156,6 @@ $(document).ready(function () {
 
     });
 
-    //animatedModal
-    $("#demo04").animatedModal4();
-
-    // Contact Form 	
-
     // validate contact form
     $(function () {
         $('#contact-form').validate({
