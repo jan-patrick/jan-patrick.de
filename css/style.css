@@ -233,6 +233,13 @@ nav li {
     margin: 10px;
 }
 
+#back-link {
+    font-size: 13px;
+    display: inline-block;
+    margin: 10px;
+    padding-top: 20px;
+}
+
 nav li a {
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -264,7 +271,6 @@ a:hover {
 a.active {
     color: rgb(30, 20, 138);
 }
-
 
 /* home section
 ==================================================*/
