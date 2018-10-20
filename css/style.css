@@ -233,13 +233,6 @@ nav li {
     margin: 10px;
 }
 
-#back-link {
-    font-size: 13px;
-    display: inline-block;
-    margin: 10px;
-    padding-top: 20px;
-}
-
 nav li a {
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -256,6 +249,14 @@ nav li a {
 
 .bg-nav ul {
     padding: 10px;
+}
+
+#back-link {
+    font-size: 13px;
+    display: inline-block;
+    margin-top: 10px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
 }
 
 a:focus {
