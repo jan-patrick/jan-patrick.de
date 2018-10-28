@@ -55,6 +55,11 @@
 
         #home {
             background: url(../../img/portfolio/sense-chess/touch.jpg);
+            background-repeat: no-repeat;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
         }
     </style>
 
@@ -75,10 +80,10 @@
     <header class="navbar-fixed-top">
         <nav>
             <ul>
-                    <li><a id="back-link" onclick="backbutton()">
-                            <ion-icon name="arrow-back"></ion-icon>
-                        </a>
-                    </li>
+                <li><a id="back-link" onclick="backbutton()">
+                        <ion-icon name="arrow-back"></ion-icon>
+                    </a>
+                </li>
                 <li><a href="https://jan-patrick.de/#projects">projects</a></li>
                 <li><a href="https://jan-patrick.de/#about">about</a></li>
                 <li><a href="https://jan-patrick.de/#experience">experience</a></li>
@@ -129,7 +134,7 @@
         <div class="section" id="idea">
             <div class="container">
                 <img src="../../img/portfolio/sense-chess/board.jpg" width="auto" class="img-responsive" alt="sense-chess logo"
-                    align="right"/>
+                    align="right" />
             </div>
         </div>
         <!-- ./about -->
@@ -138,7 +143,7 @@
         <div class="section" id="development">
             <div class="container">
                 <img src="../../img/portfolio/sense-chess/lightfields.jpg" width="auto" class="img-responsive" alt="sense-chess logo"
-                    align="right"/>
+                    align="right" />
             </div>
         </div>
         <!-- ./about -->
@@ -147,7 +152,7 @@
         <div class="section" id="controller">
             <div class="container">
                 <img src="../../img/portfolio/sense-chess/matrix.jpg" width="auto" class="img-responsive" alt="sense-chess logo"
-                    align="right"/>
+                    align="right" />
             </div>
         </div>
         <!-- ./about -->
@@ -156,7 +161,7 @@
         <div class="section" id="sadjkl">
             <div class="container">
                 <img src="../../img/portfolio/sense-chess/figures.jpg" width="auto" class="img-responsive" alt="sense-chess logo"
-                    align="right"/>
+                    align="right" />
             </div>
         </div>
         <!-- ./about -->
@@ -165,7 +170,7 @@
         <div class="section" id="asapsd">
             <div class="container">
                 <img src="../../img/portfolio/sense-chess/black.jpg" width="auto" class="img-responsive" alt="sense-chess logo"
-                    align="right"/>
+                    align="right" />
             </div>
         </div>
         <!-- ./about -->
@@ -174,7 +179,7 @@
         <div class="section" id="dlksd">
             <div class="container">
                 <img src="../../img/portfolio/sense-chess/background.jpg" width="auto" class="img-responsive" alt="sense-chess logo"
-                    align="right"/>
+                    align="right" />
             </div>
         </div>
         <!-- ./about -->
@@ -222,14 +227,14 @@
         <!--  main script  -->
         <script src="../../js/custom.js"></script>
         <script>
-                function backbutton() {
-                    if (document.referrer == "") {
-                        window.open('https://jan-patrick.de', '_self', false)
-                    } else {
-                        history.back()
-                    }
+            function backbutton() {
+                if (document.referrer == "") {
+                    window.open('https://jan-patrick.de', '_self', false)
+                } else {
+                    history.back()
                 }
-            </script>
+            }
+        </script>
 </body>
 
 </html>
