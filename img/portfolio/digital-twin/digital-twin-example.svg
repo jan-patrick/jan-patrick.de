@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 3840 2160" style="enable-background:new 0 0 3840 2160;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{fill:#6C6C6C;}
+	.st2{fill:none;stroke:#6C6C6C;stroke-width:5;}
+	.st3{opacity:0.8;}
+	.st4{fill:#FFFFFF;}
+	.st5{fill:#7B7878;}
+	.st6{font-family:'Roboto-Regular';}
+	.st7{font-size:40px;}
+	.st8{font-size:25px;}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="3840" height="2160"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g id="idea2-v1_-_1_3" class="st0">
+		<rect width="3840" height="2160"/>
+		<g id="Gruppe_1">
+			<rect id="ground" y="2402.2" class="st1" width="4519.2" height="123.6"/>
+			<g id="windmill" transform="translate(241.073 175.558)">
+				<path id="Pfad_1" class="st1" d="M824,737.4h65.8l7.8,1490.4h-81.5L824,737.4z"/>
+				<g id="rotor" transform="translate(0)">
+					<path id="Pfad_2" class="st1" d="M0,682.4h860.3v68.7l-200.1,39.2L0,682.4z"/>
+					<path id="Pfad_3" class="st1" d="M1348.3,62L854.5,766.5l-56.3-39.4l82.7-186.4L1348.3,62z"/>
+					<path id="Pfad_4" class="st1" d="M1361.2,1357.7L796.9,708.2l51.9-45.1l160.9,125.3L1361.2,1357.7z"/>
+					<circle id="Ellipse_1" class="st1" cx="859.9" cy="713.8" r="41.8"/>
+				</g>
+			</g>
+			<g id="car" transform="translate(215.366 2223.282)">
+				<path id="Pfad_5" class="st1" d="M23.5,73h14.9L78.2,0h127.7l51.8,73c13,0,68.3,10.5,68.3,23.5v33c0,13-10.5,23.5-23.5,23.5
+					H23.5C10.5,153,0,142.5,0,129.5v-33C0,83.5,10.5,73,23.5,73z"/>
+				<circle id="Ellipse_2" class="st1" cx="78.8" cy="153" r="25.9"/>
+				<circle id="Ellipse_3" class="st1" cx="257.7" cy="153" r="25.9"/>
+			</g>
+			<rect id="etank" x="674.3" y="2193.9" class="st1" width="118.9" height="208.3"/>
+			<path id="cable" class="st2" d="M676.1,2254.5c0,0-46.2-4.8-45.6,31.6c0.6,36.4,3.7,99.7-23.5,99.7s-19.5-39.1-33.1-56.5
+				c-13.5-17.4-36.6-11.6-36.6-11.6"/>
+			<g id="windmillDT" transform="translate(408.188 92)" class="st3">
+				<path id="Pfad_1-2" class="st4" d="M824,737.4h65.8l7.8,1490.4h-81.5L824,737.4z"/>
+				<g id="rotor-2">
+					<path id="Pfad_2-2" class="st4" d="M0,682.4h860.3v68.7l-200.1,39.2L0,682.4z"/>
+					<path id="Pfad_3-2" class="st4" d="M1348.3,62L854.5,766.5l-56.3-39.4l82.7-186.4L1348.3,62z"/>
+					<path id="Pfad_4-2" class="st4" d="M1361.2,1357.7L796.9,708.2l51.9-45.1l160.9,125.3L1361.2,1357.7z"/>
+					<circle id="Ellipse_1-2" class="st4" cx="859.9" cy="713.8" r="41.8"/>
+				</g>
+			</g>
+		</g>
+		<g id="Gruppe_3" transform="translate(1884 -720)">
+			<text transform="matrix(1 0 0 1 183 1303)" class="st5 st6 st7">Vorstellung</text>
+			<text transform="matrix(1 0 0 1 183 1384)" class="st5 st6 st8">Die Idee des digitalen Zwillings wurde von Dr. Michael </text>
+			<text transform="matrix(1 0 0 1 183 1414)" class="st5 st6 st8">Grieves an der University of Michigan vorgestellt. Zu </text>
+			<text transform="matrix(1 0 0 1 183 1444)" class="st5 st6 st8">dieser Zeit war das Konzept der digitalen Repräsentanz </text>
+			<text transform="matrix(1 0 0 1 183 1474)" class="st5 st6 st8">eines physischen Objektes der realen Welt relativ neu </text>
+			<text transform="matrix(1 0 0 1 183 1504)" class="st5 st6 st8">und unausgereift. Die gesammelten Informationen des </text>
+			<text transform="matrix(1 0 0 1 183 1534)" class="st5 st6 st8">physischen Produktes waren limitiert und häufig wurden </text>
+			<text transform="matrix(1 0 0 1 183 1564)" class="st5 st6 st8">Daten manuell erhoben.</text>
+			<text transform="matrix(1 0 0 1 826 1243)" class="st4 st6 st7">Verbreitung</text>
+			<text transform="matrix(1 0 0 1 826 1324)" class="st4 st6 st8">Die Menge, Vielfalt und Genauigkeit der Informationen, </text>
+			<text transform="matrix(1 0 0 1 826 1354)" class="st4 st6 st8">die einfach und günstig gewonnen werden können hat </text>
+			<text transform="matrix(1 0 0 1 826 1384)" class="st4 st6 st8">sich seit dem vervielfacht. </text>
+			<text transform="matrix(1 0 0 1 826 1414)" class="st4 st6 st8">Zwar ist die Menge der objektbezogenen Daten und </text>
+			<text transform="matrix(1 0 0 1 826 1444)" class="st4 st6 st8">Informationen enorm gestiegen, jedoch scheiterte es an </text>
+			<text transform="matrix(1 0 0 1 826 1474)" class="st4 st6 st8">der mangelhaften wechselseitigen Verbindung. </text>
+			<text transform="matrix(1 0 0 1 826 1504)" class="st4 st6 st8">Unternehmen arbeiteten vor allem fokussiert an einem </text>
+			<text transform="matrix(1 0 0 1 826 1534)" class="st4 st6 st8">Objekt, dem physischen oder digitalen. Die fehlende </text>
+			<text transform="matrix(1 0 0 1 826 1564)" class="st4 st6 st8">Verbindung der beiden Produkte verhindert ein </text>
+			<text transform="matrix(1 0 0 1 826 1594)" class="st4 st6 st8">simultanes Arbeiten.</text>
+		</g>
+	</g>
+</g>
+</svg>

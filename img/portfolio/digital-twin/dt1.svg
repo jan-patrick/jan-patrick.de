@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 3840 2160" style="enable-background:new 0 0 3840 2160;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{fill:#6C6C6C;}
+	.st2{opacity:0.8;}
+	.st3{fill:#FFFFFF;}
+	.st4{fill:#7B7878;}
+	.st5{font-family:'Roboto-Regular';}
+	.st6{font-size:40px;}
+	.st7{font-size:25px;}
+	.st8{fill:none;stroke:#FF0808;stroke-width:2;stroke-dasharray:5;}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="3840" height="2160"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g id="idea2-v1_-_1_5" class="st0">
+		<rect width="3840" height="2160"/>
+		<g id="windmill" transform="translate(31.073 166.76)">
+			<path id="Pfad_1" class="st1" d="M737.2,659.8h58.9l7,1333.5h-73L737.2,659.8z"/>
+			<g id="rotor" transform="translate(0 0)">
+				<path id="Pfad_2" class="st1" d="M0,610.5h769.7V672l-179,35.1L0,610.5z"/>
+				<path id="Pfad_3" class="st1" d="M1206.4,55.4L764.6,685.8l-50.4-35.3l74-166.7L1206.4,55.4z"/>
+				<path id="Pfad_4" class="st1" d="M1217.9,1214.7L713,633.6l46.4-40.3l143.9,112.1L1217.9,1214.7z"/>
+				<ellipse id="Ellipse_1" class="st1" cx="769.3" cy="638.6" rx="37.4" ry="37.4"/>
+			</g>
+		</g>
+		<g id="windmillDT" transform="translate(2276.592 92)" class="st2">
+			<path id="Pfad_1-2" class="st3" d="M737.2,659.8h58.9l7,1333.5h-73L737.2,659.8z"/>
+			<g id="rotor-2" transform="translate(0 0)">
+				<path id="Pfad_2-2" class="st3" d="M0,610.5h769.7V672l-179,35.1L0,610.5z"/>
+				<path id="Pfad_3-2" class="st3" d="M1206.4,55.4L764.6,685.8l-50.4-35.3l74-166.7L1206.4,55.4z"/>
+				<path id="Pfad_4-2" class="st3" d="M1217.9,1214.7L713,633.6l46.4-40.3l143.9,112.1L1217.9,1214.7z"/>
+				<ellipse id="Ellipse_1-2" class="st3" cx="769.3" cy="638.6" rx="37.4" ry="37.4"/>
+			</g>
+		</g>
+		<g id="Gruppe_4" transform="translate(863 512)">
+			<text transform="matrix(1 0 0 1 183 1303)" class="st4 st5 st6">Daten</text>
+			<text transform="matrix(1 0 0 1 183 1384)" class="st4 st5 st7">Informationen über Verfahren und Kräfte, welche </text>
+			<text transform="matrix(1 0 0 1 183 1414)" class="st4 st5 st7">eingesetzt und angelegt wurden, objektbezogenen Daten </text>
+			<text transform="matrix(1 0 0 1 183 1444)" class="st4 st5 st7">und Informationen von diesem einen Produkt werden </text>
+			<text transform="matrix(1 0 0 1 183 1474)" class="st4 st5 st7">bestmöglich durchgängig übertragen und gespeichert.</text>
+			<text transform="matrix(1 0 0 1 826 1243)" class="st3 st5 st6">Vorteile</text>
+			<text transform="matrix(1 0 0 1 826 1324)" class="st3 st5 st7">- Innovationsschübe</text>
+			<text transform="matrix(1 0 0 1 826 1354)" class="st3 st5 st7">- bessere Wartbarkeit</text>
+			<text transform="matrix(1 0 0 1 826 1384)" class="st3 st5 st7">- Kontinuierliche Auswertung</text>
+			<text transform="matrix(1 0 0 1 826 1414)" class="st3 st5 st7">- Kontinuierliche Optimierung</text>
+			<text transform="matrix(1 0 0 1 826 1444)" class="st3 st5 st7">- Testbarkeit</text>
+			<text transform="matrix(1 0 0 1 826 1474)" class="st3 st5 st7">- Grundsätzliche Vernetzung des Produkts (erweitert so  </text>
+			<text transform="matrix(1 0 0 1 826 1504)" class="st3 st5 st7">  andere Anwendungsfälle)</text>
+			<text transform="matrix(1 0 0 1 826 1534)" class="st3 st5 st7">- Auslastung und Nutzbare Zeit erhöhen</text>
+			<text transform="matrix(1 0 0 1 183 1192)" class="st4 st5 st6">Daten von Produkt zu Zwilling</text>
+		</g>
+		<g id="cable-DTtoPT" transform="translate(-136 40)">
+			<line id="Linie_5" class="st8" x1="933.5" y1="774.5" x2="933.5" y2="2085.7"/>
+			<line id="Linie_7" class="st8" x1="933.5" y1="2084.7" x2="3180.5" y2="2084.7"/>
+			<line id="Linie_14" class="st8" x1="3180.5" y1="703.5" x2="3180.5" y2="2085.7"/>
+		</g>
+	</g>
+</g>
+</svg>
