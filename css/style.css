@@ -839,9 +839,9 @@ fieldset {
 
 @media (max-width: 500px) {
     h1 {
-        font-family: 'Open Sans Pro', sans-serif;
-        font-size: 50px;
-        line-height: 50px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 35px;
+        line-height: 40px;
     }
     #home,
     .disply-table {
