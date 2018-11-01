@@ -1,7 +1,7 @@
-@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 /*
-font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Open Sans Pro', sans-serif;
 font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif;
 */
@@ -11,15 +11,15 @@ font-family: 'Open Sans', sans-serif;
 ==================================================*/
 
 h1 {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
     font-size: 80px;
     line-height: 70px;
     color: rgb(255, 255, 255);
 }
 
 h4 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     text-transform: capitalize;
     letter-spacing: 2px;
     position: relative;
@@ -40,14 +40,14 @@ h4:before {
 }
 
 h6 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;;
 }
 
 p {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 20px;
-    line-height: 26px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
 }
 
 
@@ -55,7 +55,7 @@ p {
 ==================================================*/
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 24px;
 }
@@ -330,7 +330,7 @@ a.active {
 }
 
 .experience-row h3 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans Pro', sans-serif;
     text-transform: capitalize;
     letter-spacing: 2px;
     color: rgb(12, 0, 146);
@@ -671,7 +671,7 @@ a.active {
     }
 
 .modal-content h2 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans Pro', sans-serif;
     font-size: 40px;
     line-height: 50px;
     font-weight: bold;
@@ -839,7 +839,7 @@ fieldset {
 
 @media (max-width: 500px) {
     h1 {
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Open Sans Pro', sans-serif;
         font-size: 50px;
         line-height: 50px;
     }
