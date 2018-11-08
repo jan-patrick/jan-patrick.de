@@ -1,76 +1,133 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 2160 2160" style="enable-background:new 0 0 2160 2160;" xml:space="preserve">
-<style type="text/css">
-	.st0{clip-path:url(#SVGID_2_);}
-	.st1{fill:#6C6C6C;}
-	.st2{fill:none;stroke:#6C6C6C;stroke-width:5;}
-	.st3{opacity:0.8;}
-	.st4{fill:#FFFFFF;}
-	.st5{fill:#7B7878;}
-	.st6{font-family:'Roboto-Regular';}
-	.st7{font-size:13.1944px;}
-	.st8{font-size:21.1111px;}
-</style>
-<g>
-	<defs>
-		<rect id="SVGID_1_" x="4.7" width="3840" height="2160"/>
-	</defs>
-	<clipPath id="SVGID_2_">
-		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-	</clipPath>
-	<g id="idea2-v1_-_1_2" class="st0">
-		<rect x="4.7" width="2155.3" height="2160"/>
-		<g id="Gruppe_1">
-			<rect id="ground" x="4.7" y="2055" class="st1" width="2156.1" height="105"/>
-			<g id="windmill" transform="translate(6 -105)">
-				<path id="Pfad_1" class="st1" d="M903.7,894.6h55.9l6.7,1266.4H897L903.7,894.6z"/>
-				<g id="rotor">
-					<path id="Pfad_2" class="st1" d="M203.5,847.8h731v58.4l-170,33.3L203.5,847.8z"/>
-					<path id="Pfad_3" class="st1" d="M1349.2,320.7L929.6,919.4l-47.8-33.5L952,727.6L1349.2,320.7z"/>
-					<path id="Pfad_4" class="st1" d="M1360.1,1421.6L880.6,869.7l44.1-38.3l136.7,106.5L1360.1,1421.6z"/>
-					<circle id="Ellipse_1" class="st1" cx="934.2" cy="874.5" r="35.5"/>
-				</g>
-			</g>
-			<g id="car">
-				<path id="Pfad_5" class="st1" d="M207.7,1965h12.7l33.8-62h108.5l44,62c11,0,58,9,58,20v28c0,11-9,20-20,20h-237
-					c-11,0-20-9-20-20v-28C187.7,1974,196.6,1965,207.7,1965z"/>
-				<circle id="Ellipse_2" class="st1" cx="254.7" cy="2033" r="22"/>
-				<circle id="Ellipse_3" class="st1" cx="406.7" cy="2033" r="22"/>
-			</g>
-			<rect id="etank" x="577.7" y="1878" class="st1" width="101" height="177"/>
-			<path id="cable" class="st2" d="M579.1,1929.5c0,0-39.3-4.1-38.7,26.8s3.1,84.7-19.9,84.7s-16.6-33.2-28.1-48s-31.1-9.9-31.1-9.9
-				"/>
-			<g id="windmillDT" transform="translate(148 -176)" class="st3">
-				<path id="Pfad_1-2" class="st4" d="M903.7,894.6h55.9l6.7,1266.4H897L903.7,894.6z"/>
-				<g id="rotor-2">
-					<path id="Pfad_2-2" class="st4" d="M203.5,847.8h731v58.4l-170,33.3L203.5,847.8z"/>
-					<path id="Pfad_3-2" class="st4" d="M1349.2,320.7L929.6,919.4l-47.8-33.5L952,727.6L1349.2,320.7z"/>
-					<path id="Pfad_4-2" class="st4" d="M1360.1,1421.6L880.6,869.7l44.1-38.3l136.7,106.5L1360.1,1421.6z"/>
-					<circle id="Ellipse_1-2" class="st4" cx="934.2" cy="874.5" r="35.5"/>
-				</g>
-			</g>
-		</g>
-		<g id="Text">
-			<g id="PT" transform="translate(216 583)">
-				<text transform="matrix(1 0 0 1 1166.7358 1093.6605)" class="st5 st6 st7">Etwas, was (aus bestimmten Stoffen hergestellt) das </text>
-				<text transform="matrix(1 0 0 1 1166.7358 1109.4945)" class="st5 st6 st7">Ergebnis menschlicher Arbeit ist. Ein Erzeugnis ist dem </text>
-				<text transform="matrix(1 0 0 1 1166.7358 1125.3275)" class="st5 st6 st7">gleichzusetzen, denn Produkt kommt aus dem </text>
-				<text transform="matrix(1 0 0 1 1166.7358 1141.1605)" class="st5 st6 st7">lateinischen productum = das Hervorgebrachte, </text>
-				<text transform="matrix(1 0 0 1 1166.7358 1156.9935)" class="st5 st6 st7">substantiviertes Neutrum des 2. Partizip von: producere, </text>
-				<text transform="matrix(1 0 0 1 1166.7358 1172.8275)" class="st5 st6 st7">produzieren.</text>
-				<text transform="matrix(1 0 0 1 1166.7358 1050.9105)" class="st5 st6 st8">physisches Produkt</text>
-			</g>
-			<g id="DT" transform="translate(216 523)">
-				<text transform="matrix(1 0 0 1 1506.0972 1121.9945)" class="st4 st6 st7">Ist die digitale Repräsentanz eines physischen Produkts </text>
-				<text transform="matrix(1 0 0 1 1506.0972 1137.8275)" class="st4 st6 st7">oder Prozesses. Dabei sind beide durch Daten- und </text>
-				<text transform="matrix(1 0 0 1 1506.0972 1153.6605)" class="st4 st6 st7">Informationsaustausch verknüpft.</text>
-				<text transform="matrix(1 0 0 1 1506.0972 1169.4945)" class="st4 st6 st7">Der digitale Zwilling ist im Idealfall von seinem </text>
-				<text transform="matrix(1 0 0 1 1506.0972 1185.3275)" class="st4 st6 st7">physischen Gegenstück nicht zu unterscheiden.</text>
-				<text transform="matrix(1 0 0 1 1506.0972 1079.2445)" class="st4 st6 st8">digitaler Zwilling</text>
-			</g>
-		</g>
-	</g>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3115 3115">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-custom_2);
+      }
+
+      .cls-2, .cls-7 {
+        fill: #616161;
+      }
+
+      .cls-2 {
+        stroke: #707070;
+      }
+
+      .cls-11, .cls-3, .cls-9 {
+        fill: none;
+      }
+
+      .cls-3 {
+        stroke: #616161;
+        stroke-width: 19px;
+      }
+
+      .cls-4 {
+        opacity: 0.8;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        fill: #454545;
+      }
+
+      .cls-8 {
+        fill: #fffbfb;
+      }
+
+      .cls-9 {
+        stroke: #fff;
+        stroke-width: 3px;
+      }
+
+      .cls-10 {
+        stroke: none;
+      }
+    </style>
+    <clipPath id="clip-custom_2">
+      <rect width="3115" height="3115"/>
+    </clipPath>
+  </defs>
+  <g id="custom_2" data-name="custom – 2" class="cls-1">
+    <rect width="3115" height="3115"/>
+    <g id="real_world" data-name="real world" transform="translate(-1391 -1500)">
+      <g id="forest">
+        <g id="tree" transform="matrix(0.999, 0.035, -0.035, 0.999, 3700.189, 175.159)">
+          <g id="Ellipse_3" data-name="Ellipse 3" class="cls-2" transform="translate(2206 3285)">
+            <circle class="cls-10" cx="115.5" cy="115.5" r="115.5"/>
+            <circle class="cls-11" cx="115.5" cy="115.5" r="115"/>
+          </g>
+          <line id="Linie_1" data-name="Linie 1" class="cls-3" y2="465" transform="translate(2321.5 3400.5)"/>
+        </g>
+        <g id="tree-2" data-name="tree" transform="matrix(0.998, -0.07, 0.07, 0.998, 3551.387, 404.889)">
+          <g id="Ellipse_3-2" data-name="Ellipse 3" class="cls-2" transform="translate(2243 3482)">
+            <circle class="cls-10" cx="78.5" cy="78.5" r="78.5"/>
+            <circle class="cls-11" cx="78.5" cy="78.5" r="78"/>
+          </g>
+          <line id="Linie_1-2" data-name="Linie 1" class="cls-3" y2="313" transform="translate(2321.5 3552.5)"/>
+        </g>
+        <g id="tree-3" data-name="tree" transform="translate(4373.296 183.402) rotate(3)">
+          <g id="Ellipse_3-3" data-name="Ellipse 3" class="cls-2" transform="translate(2206 3285)">
+            <circle class="cls-10" cx="115.5" cy="115.5" r="115.5"/>
+            <circle class="cls-11" cx="115.5" cy="115.5" r="115"/>
+          </g>
+          <line id="Linie_1-3" data-name="Linie 1" class="cls-3" y2="465" transform="translate(2321.5 3400.5)"/>
+        </g>
+      </g>
+      <g id="windmillDT" class="cls-4" transform="translate(2649 1669)">
+        <path id="Pfad_1" data-name="Pfad 1" class="cls-5" d="M6.669,0H62.619l6.669,1266.419H0Z" transform="translate(892.33 894.581)"/>
+        <g id="rotor">
+          <path id="Pfad_2" data-name="Pfad 2" class="cls-5" d="M298,0V731H239.607L206.276,561.008Z" transform="translate(198.844 1145.844) rotate(-90)"/>
+          <path id="Pfad_3" data-name="Pfad 3" class="cls-5" d="M298,0V731H239.607L206.276,561.008Z" transform="matrix(0.819, 0.574, -0.574, 0.819, 1100.447, 149.685)"/>
+          <path id="Pfad_4" data-name="Pfad 4" class="cls-5" d="M298,0V731H239.607L206.276,561.008Z" transform="matrix(-0.755, 0.656, -0.656, -0.755, 1580.424, 1226.135)"/>
+          <circle id="Ellipse_1" data-name="Ellipse 1" class="cls-5" cx="35.5" cy="35.5" r="35.5" transform="translate(894 839)"/>
+        </g>
+      </g>
+      <g id="sun_moon" data-name="sun/moon" class="cls-2" transform="translate(6474 1814)">
+        <circle class="cls-10" cx="161.5" cy="161.5" r="161.5"/>
+        <circle class="cls-11" cx="161.5" cy="161.5" r="161"/>
+      </g>
+      <path id="hill" class="cls-6" d="M1705.19,5117.253s461.227-936.76,1532.651-942.652,1340.754,571.482,1980.41,566.433,745.7-168.331,1273.421-168.331,925.819,544.55,925.819,544.55" transform="translate(-314 -502)"/>
+      <g id="cloud" transform="translate(-4161.648 71)">
+        <circle id="sun_moon-2" data-name="sun/moon" class="cls-6" cx="115.904" cy="115.904" r="115.904" transform="translate(5770 2119.246)"/>
+        <circle id="sun_moon-3" data-name="sun/moon" class="cls-6" cx="184.027" cy="184.027" r="184.027" transform="translate(5923.277 1983)"/>
+        <circle id="sun_moon-4" data-name="sun/moon" class="cls-6" cx="153.277" cy="153.277" r="153.277" transform="translate(6138.054 2045.446)"/>
+        <rect id="Rechteck_1" data-name="Rechteck 1" class="cls-6" width="404.954" height="116.377" transform="translate(5886.377 2235.623)"/>
+      </g>
+      <g id="cloud-2" data-name="cloud" transform="translate(-409 255)">
+        <circle id="sun_moon-5" data-name="sun/moon" class="cls-7" cx="84.179" cy="84.179" r="84.179" transform="translate(5770 2081.954)"/>
+        <circle id="sun_moon-6" data-name="sun/moon" class="cls-7" cx="133.656" cy="133.656" r="133.656" transform="translate(5881.323 1983)"/>
+        <circle id="sun_moon-7" data-name="sun/moon" class="cls-7" cx="111.323" cy="111.323" r="111.323" transform="translate(6037.313 2028.354)"/>
+        <rect id="Rechteck_1-2" data-name="Rechteck 1" class="cls-7" width="294.113" height="84.523" transform="translate(5854.523 2166.477)"/>
+      </g>
+      <g id="cloud-3" data-name="cloud" transform="translate(-1002 -169)">
+        <circle id="sun_moon-8" data-name="sun/moon" class="cls-7" cx="122.5" cy="122.5" r="122.5" transform="translate(5770 2127)"/>
+        <circle id="sun_moon-9" data-name="sun/moon" class="cls-7" cx="194.5" cy="194.5" r="194.5" transform="translate(5932 1983)"/>
+        <circle id="sun_moon-10" data-name="sun/moon" class="cls-7" cx="162" cy="162" r="162" transform="translate(6159 2049)"/>
+        <rect id="Rechteck_1-3" data-name="Rechteck 1" class="cls-7" width="428" height="123" transform="translate(5893 2250)"/>
+      </g>
+    </g>
+    <rect id="Rechteck_3" data-name="Rechteck 3" class="cls-8" width="957" height="38" transform="translate(643 1433)"/>
+    <rect id="Rechteck_4" data-name="Rechteck 4" class="cls-8" width="829" height="38" transform="translate(643 1501)"/>
+    <rect id="Rechteck_5" data-name="Rechteck 5" class="cls-8" width="876" height="38" transform="translate(643 1569)"/>
+    <rect id="Rechteck_6" data-name="Rechteck 6" class="cls-8" width="512" height="38" transform="translate(643 1637)"/>
+    <g id="Gruppe_1" data-name="Gruppe 1" transform="translate(-2757 -230)">
+      <line id="Linie_2" data-name="Linie 2" class="cls-9" x1="191" y1="195" transform="translate(4293 1055)"/>
+      <line id="Linie_3" data-name="Linie 3" class="cls-9" x1="75" transform="translate(4219 1055.5)"/>
+      <rect id="Rechteck_7" data-name="Rechteck 7" class="cls-5" width="339" height="38" transform="translate(3956 1003)"/>
+    </g>
+    <g id="Gruppe_2" data-name="Gruppe 2" transform="translate(-1967 846)">
+      <line id="Linie_2-2" data-name="Linie 2" class="cls-9" y1="109" x2="109" transform="translate(4184 1055)"/>
+      <path id="Pfad_5" data-name="Pfad 5" class="cls-9" d="M75,0H0" transform="translate(4292 1055.5)"/>
+      <rect id="Rechteck_7-2" data-name="Rechteck 7" class="cls-5" width="419" height="38" transform="translate(4291 1003)"/>
+    </g>
+    <g id="Gruppe_3" data-name="Gruppe 3" transform="translate(-1891 -547)">
+      <line id="Linie_2-3" data-name="Linie 2" class="cls-9" x1="94" y1="94" transform="translate(4293 1055)"/>
+      <line id="Linie_3-2" data-name="Linie 3" class="cls-9" x1="75" transform="translate(4219 1055.5)"/>
+      <rect id="Rechteck_7-3" data-name="Rechteck 7" class="cls-5" width="264" height="38" transform="translate(4031 1003)"/>
+    </g>
+  </g>
 </svg>
