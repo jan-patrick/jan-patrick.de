@@ -63,6 +63,10 @@ a {
     border-bottom: 1.9px solid rgba(60, 60, 60, 0.4);
 }
 
+a:hover {
+    border-bottom: 1.9px solid rgba(12, 0, 146, 0.4);
+}
+
 
 /* General
 ==================================================*/
@@ -270,6 +274,9 @@ nav li a {
     font-size: 13px;
     font-weight: bold;
     text-decoration: none;
+    border-bottom: none;
+}
+nav li a:hover {
     border-bottom: none;
 }
 
@@ -840,6 +847,7 @@ fieldset {
     margin-right: 15px;
     transition: all .3s;
     -webkit-transition: all .3s;
+    border-bottom: none;
 }
 
 .social li a:hover {
