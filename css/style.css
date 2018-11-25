@@ -876,6 +876,22 @@ fieldset {
     text-decoration: #333
 }
 
+.alignCenter {
+    text-align: center;
+}
+
+.alignRight {
+    text-align: right;
+}
+
+.inlineTable {
+    display:inline-table;
+}
+
+.displayInline {
+    display:inline;
+}
+
 /* Responsive media queries
 ==================================================*/
 
