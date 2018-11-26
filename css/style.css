@@ -731,6 +731,8 @@ a.active {
 #contact {
     padding: 100px 0;
     background: #ffffff;
+    height: 100vh;
+    padding-bottom: 0%;
 }
 
 #contact-form input,
