@@ -801,6 +801,10 @@ a.active {
     padding: 10px;
 }
 
+#courtText {
+    background-color: #194DC7;
+}
+
 .portfolioImgLeft {
     padding-left: 0px;
 }
