@@ -92,6 +92,11 @@ body {
     opacity: 0.7;
 }
 
+.cut {
+    text-decoration-line: line-through;
+    opacity: 0.7;
+}
+
 .bold {
     font-weight: 800;
 }
@@ -724,6 +729,58 @@ a.active {
     font-weight: bold;
 }
 
+.portfolioElement {
+    height: 75vh;
+    background: url(img/portfolio/digital-twin.svg)
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    transition: transform .4s;
+    box-shadow: 0px 0px 2px grey;
+}
+
+.portfolioElement:hover {
+    -ms-transform: scale(1.03); /* IE 9 */
+    -webkit-transform: scale(1.03); /* Safari 3-8 */
+    transform: scale(1.03); 
+    box-shadow: 2px 2px 10px grey;
+}
+
+#court {
+    background: url(../img/portfolio/judge.jpg);
+    background-size: 100% 100%;
+}
+
+#digital-twin {
+    background: url(../img/portfolio/digital-twin.jpg);
+    background-size: 100% 100%;
+}
+
+#sense-chess {
+    background: url(../img/portfolio/sense-chess.jpg);
+}
+
+#lostbrick {
+    background: url(../img/portfolio/lostbrick/lostbrick-menu.jpg);
+}
+
+#freetime {
+    background: url(../img/portfolio/ich-hab-dich-auch-lieb/xmas.jpg);
+}
+
+.portfolioText {
+    color: #ffffff;
+    margin-left: 15px;
+    margin-top: 15%;
+    background-color: rgb(30, 20, 138, 0.7);
+    padding: 10px;
+}
+
+.portfolioImgLeft {
+    padding-left: 0px;
+}
 
 /* contact
 ==================================================*/

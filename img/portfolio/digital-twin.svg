@@ -1,24 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3115 3115">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 10000 5000" width="5000" height="10000" style="float:right">
   <defs>
     <style>
       .cls-1 {
-        clip-path: url(#clip-custom_2);
-      }
-
-      .cls-2, .cls-7 {
-        fill: #616161;
+        clip-path: url(#clip-custom_3);
       }
 
       .cls-2 {
-        stroke: #707070;
+        fill: #4a4848;
       }
 
-      .cls-11, .cls-3, .cls-9 {
+      .cls-3, .cls-7 {
         fill: none;
       }
 
       .cls-3 {
-        stroke: #616161;
+        stroke: #4a4848;
         stroke-width: 19px;
       }
 
@@ -27,107 +23,91 @@
       }
 
       .cls-5 {
-        fill: #fff;
+        fill: #d8d8d8;
       }
 
       .cls-6 {
-        fill: #454545;
+        fill: #fff;
       }
 
-      .cls-8 {
-        fill: #fffbfb;
-      }
-
-      .cls-9 {
+      .cls-7 {
         stroke: #fff;
-        stroke-width: 3px;
-      }
-
-      .cls-10 {
-        stroke: none;
+        stroke-width: 7px;
       }
     </style>
-    <clipPath id="clip-custom_2">
-      <rect width="3115" height="3115"/>
+    <clipPath id="clip-custom_3">
+      <rect width="10000" height="5000"/>
     </clipPath>
   </defs>
-  <g id="custom_2" data-name="custom – 2" class="cls-1">
-    <rect width="3115" height="3115"/>
-    <g id="real_world" data-name="real world" transform="translate(-1391 -1500)">
-      <g id="forest">
-        <g id="tree" transform="matrix(0.999, 0.035, -0.035, 0.999, 3700.189, 175.159)">
-          <g id="Ellipse_3" data-name="Ellipse 3" class="cls-2" transform="translate(2206 3285)">
-            <circle class="cls-10" cx="115.5" cy="115.5" r="115.5"/>
-            <circle class="cls-11" cx="115.5" cy="115.5" r="115"/>
-          </g>
-          <line id="Linie_1" data-name="Linie 1" class="cls-3" y2="465" transform="translate(2321.5 3400.5)"/>
+  <g id="custom_3" data-name="custom – 3" class="cls-1">
+    <rect width="10000" height="5000"/>
+    <g id="real_world" data-name="real world" transform="translate(0.19 148.968)">
+      <g id="forest" transform="translate(1106.811 2880.994)">
+        <g id="tree" transform="matrix(0.999, 0.035, -0.035, 0.999, 35.465, 0)">
+          <circle id="Ellipse_3" data-name="Ellipse 3" class="cls-2" cx="202.191" cy="202.191" r="202.191"/>
+          <line id="Linie_1" data-name="Linie 1" class="cls-3" y2="814.017" transform="translate(202.191 202.191)"/>
         </g>
-        <g id="tree-2" data-name="tree" transform="matrix(0.998, -0.07, 0.07, 0.998, 3551.387, 404.889)">
-          <g id="Ellipse_3-2" data-name="Ellipse 3" class="cls-2" transform="translate(2243 3482)">
-            <circle class="cls-10" cx="78.5" cy="78.5" r="78.5"/>
-            <circle class="cls-11" cx="78.5" cy="78.5" r="78"/>
-          </g>
-          <line id="Linie_1-2" data-name="Linie 1" class="cls-3" y2="313" transform="translate(2321.5 3552.5)"/>
+        <g id="tree-2" data-name="tree" transform="matrix(0.998, -0.07, 0.07, 0.998, 458.431, 327.002)">
+          <circle id="Ellipse_3-2" data-name="Ellipse 3" class="cls-2" cx="137.42" cy="137.42" r="137.42"/>
+          <line id="Linie_1-2" data-name="Linie 1" class="cls-3" y2="547.93" transform="translate(137.42 123.416)"/>
         </g>
-        <g id="tree-3" data-name="tree" transform="translate(4373.296 183.402) rotate(3)">
-          <g id="Ellipse_3-3" data-name="Ellipse 3" class="cls-2" transform="translate(2206 3285)">
-            <circle class="cls-10" cx="115.5" cy="115.5" r="115.5"/>
-            <circle class="cls-11" cx="115.5" cy="115.5" r="115"/>
-          </g>
-          <line id="Linie_1-3" data-name="Linie 1" class="cls-3" y2="465" transform="translate(2321.5 3400.5)"/>
+        <g id="tree-3" data-name="tree" transform="translate(1110.579 77.387) rotate(3)">
+          <circle id="Ellipse_3-3" data-name="Ellipse 3" class="cls-2" cx="202.191" cy="202.191" r="202.191"/>
+          <line id="Linie_1-3" data-name="Linie 1" class="cls-3" y2="814.017" transform="translate(202.191 202.191)"/>
         </g>
       </g>
-      <g id="windmillDT" class="cls-4" transform="translate(2649 1669)">
-        <path id="Pfad_1" data-name="Pfad 1" class="cls-5" d="M6.669,0H62.619l6.669,1266.419H0Z" transform="translate(892.33 894.581)"/>
-        <g id="rotor">
-          <path id="Pfad_2" data-name="Pfad 2" class="cls-5" d="M298,0V731H239.607L206.276,561.008Z" transform="translate(198.844 1145.844) rotate(-90)"/>
-          <path id="Pfad_3" data-name="Pfad 3" class="cls-5" d="M298,0V731H239.607L206.276,561.008Z" transform="matrix(0.819, 0.574, -0.574, 0.819, 1100.447, 149.685)"/>
-          <path id="Pfad_4" data-name="Pfad 4" class="cls-5" d="M298,0V731H239.607L206.276,561.008Z" transform="matrix(-0.755, 0.656, -0.656, -0.755, 1580.424, 1226.135)"/>
-          <circle id="Ellipse_1" data-name="Ellipse 1" class="cls-5" cx="35.5" cy="35.5" r="35.5" transform="translate(894 839)"/>
+      <circle id="sun_moon" data-name="sun/moon" class="cls-2" cx="282.718" cy="282.718" r="282.718" transform="translate(3294.318 36)"/>
+      <g id="windmillDT" class="cls-4" transform="translate(6400.462 112.321)">
+        <path id="Pfad_1" data-name="Pfad 1" class="cls-5" d="M11.675,0h97.943l11.675,2216.962H0Z" transform="translate(1213.999 1096.875)"/>
+        <g id="rotor" transform="translate(0 0)">
+          <path id="Pfad_2" data-name="Pfad 2" class="cls-5" d="M160.57,0V1279.67H58.348L0,982.086Z" transform="translate(0 1175.629) rotate(-90)"/>
+          <path id="Pfad_3" data-name="Pfad 3" class="cls-5" d="M160.57,0V1279.67H58.348L0,982.086Z" transform="matrix(0.819, 0.574, -0.574, 0.819, 1874.12, 0)"/>
+          <path id="Pfad_4" data-name="Pfad 4" class="cls-5" d="M160.57,0V1279.67H58.348L0,982.086Z" transform="matrix(-0.755, 0.656, -0.656, -0.755, 2146.033, 1914.189)"/>
+          <circle id="Ellipse_1" data-name="Ellipse 1" class="cls-5" cx="62.145" cy="62.145" r="62.145" transform="translate(1216.923 999.577)"/>
         </g>
       </g>
-      <g id="sun_moon" data-name="sun/moon" class="cls-2" transform="translate(6474 1814)">
-        <circle class="cls-10" cx="161.5" cy="161.5" r="161.5"/>
-        <circle class="cls-11" cx="161.5" cy="161.5" r="161"/>
+      <path id="hill" class="cls-2" d="M1705.19,5824.817s622.38-999.345,1761.388-991.686S4593.1,5250.088,5712.863,5241.249,6844.182,4139.443,9112.381,4110.994C11380.55,4082.544,11705,5824.817,11705,5824.817" transform="translate(-1705.19 -973.532)"/>
+      <g id="cloud" transform="translate(400.638 1473.138)">
+        <circle id="sun_moon-2" data-name="sun/moon" class="cls-2" cx="202.898" cy="202.898" r="202.898" transform="translate(0 238.509)"/>
+        <circle id="sun_moon-3" data-name="sun/moon" class="cls-2" cx="322.153" cy="322.153" r="322.153" transform="translate(268.323)"/>
+        <circle id="sun_moon-4" data-name="sun/moon" class="cls-2" cx="268.323" cy="268.323" r="268.323" transform="translate(644.306 109.317)"/>
+        <rect id="Rechteck_1" data-name="Rechteck 1" class="cls-2" width="708.902" height="203.726" transform="translate(203.727 442.235)"/>
       </g>
-      <path id="hill" class="cls-6" d="M1705.19,5117.253s461.227-936.76,1532.651-942.652,1340.754,571.482,1980.41,566.433,745.7-168.331,1273.421-168.331,925.819,544.55,925.819,544.55" transform="translate(-314 -502)"/>
-      <g id="cloud" transform="translate(-4161.648 71)">
-        <circle id="sun_moon-2" data-name="sun/moon" class="cls-6" cx="115.904" cy="115.904" r="115.904" transform="translate(5770 2119.246)"/>
-        <circle id="sun_moon-3" data-name="sun/moon" class="cls-6" cx="184.027" cy="184.027" r="184.027" transform="translate(5923.277 1983)"/>
-        <circle id="sun_moon-4" data-name="sun/moon" class="cls-6" cx="153.277" cy="153.277" r="153.277" transform="translate(6138.054 2045.446)"/>
-        <rect id="Rechteck_1" data-name="Rechteck 1" class="cls-6" width="404.954" height="116.377" transform="translate(5886.377 2235.623)"/>
+      <g id="cloud-2" data-name="cloud" transform="translate(2795.929 1473.244)">
+        <circle id="sun_moon-5" data-name="sun/moon" class="cls-2" cx="147.362" cy="147.362" r="147.362" transform="translate(0 173.226)"/>
+        <circle id="sun_moon-6" data-name="sun/moon" class="cls-2" cx="233.976" cy="233.976" r="233.976" transform="translate(194.88)"/>
+        <circle id="sun_moon-7" data-name="sun/moon" class="cls-2" cx="194.879" cy="194.879" r="194.879" transform="translate(467.951 79.395)"/>
+        <rect id="Rechteck_1-2" data-name="Rechteck 1" class="cls-2" width="514.866" height="147.964" transform="translate(147.964 321.19)"/>
       </g>
-      <g id="cloud-2" data-name="cloud" transform="translate(-409 255)">
-        <circle id="sun_moon-5" data-name="sun/moon" class="cls-7" cx="84.179" cy="84.179" r="84.179" transform="translate(5770 2081.954)"/>
-        <circle id="sun_moon-6" data-name="sun/moon" class="cls-7" cx="133.656" cy="133.656" r="133.656" transform="translate(5881.323 1983)"/>
-        <circle id="sun_moon-7" data-name="sun/moon" class="cls-7" cx="111.323" cy="111.323" r="111.323" transform="translate(6037.313 2028.354)"/>
-        <rect id="Rechteck_1-2" data-name="Rechteck 1" class="cls-7" width="294.113" height="84.523" transform="translate(5854.523 2166.477)"/>
-      </g>
-      <g id="cloud-3" data-name="cloud" transform="translate(-1002 -169)">
-        <circle id="sun_moon-8" data-name="sun/moon" class="cls-7" cx="122.5" cy="122.5" r="122.5" transform="translate(5770 2127)"/>
-        <circle id="sun_moon-9" data-name="sun/moon" class="cls-7" cx="194.5" cy="194.5" r="194.5" transform="translate(5932 1983)"/>
-        <circle id="sun_moon-10" data-name="sun/moon" class="cls-7" cx="162" cy="162" r="162" transform="translate(6159 2049)"/>
-        <rect id="Rechteck_1-3" data-name="Rechteck 1" class="cls-7" width="428" height="123" transform="translate(5893 2250)"/>
+      <g id="cloud-3" data-name="cloud" transform="translate(3960.838 678)">
+        <circle id="sun_moon-8" data-name="sun/moon" class="cls-2" cx="214.445" cy="214.445" r="214.445" transform="translate(0 252.083)"/>
+        <circle id="sun_moon-9" data-name="sun/moon" class="cls-2" cx="340.487" cy="340.487" r="340.487" transform="translate(283.593)"/>
+        <circle id="sun_moon-10" data-name="sun/moon" class="cls-2" cx="283.593" cy="283.593" r="283.593" transform="translate(680.974 115.538)"/>
+        <rect id="Rechteck_1-3" data-name="Rechteck 1" class="cls-2" width="749.246" height="215.321" transform="translate(215.321 467.403)"/>
       </g>
     </g>
-    <rect id="Rechteck_3" data-name="Rechteck 3" class="cls-8" width="957" height="38" transform="translate(643 1433)"/>
-    <rect id="Rechteck_4" data-name="Rechteck 4" class="cls-8" width="829" height="38" transform="translate(643 1501)"/>
-    <rect id="Rechteck_5" data-name="Rechteck 5" class="cls-8" width="876" height="38" transform="translate(643 1569)"/>
-    <rect id="Rechteck_6" data-name="Rechteck 6" class="cls-8" width="512" height="38" transform="translate(643 1637)"/>
-    <g id="Gruppe_1" data-name="Gruppe 1" transform="translate(-2757 -230)">
-      <line id="Linie_2" data-name="Linie 2" class="cls-9" x1="191" y1="195" transform="translate(4293 1055)"/>
-      <line id="Linie_3" data-name="Linie 3" class="cls-9" x1="75" transform="translate(4219 1055.5)"/>
-      <rect id="Rechteck_7" data-name="Rechteck 7" class="cls-5" width="339" height="38" transform="translate(3956 1003)"/>
+    <g id="Gruppe_5" data-name="Gruppe 5" transform="translate(3538 324)">
+      <rect id="Rechteck_3" data-name="Rechteck 3" class="cls-6" width="1675.3" height="66.522" transform="translate(1065.957 2107.861)"/>
+      <rect id="Rechteck_4" data-name="Rechteck 4" class="cls-6" width="1451.226" height="66.522" transform="translate(1065.957 2226.9)"/>
+      <rect id="Rechteck_5" data-name="Rechteck 5" class="cls-6" width="1533.503" height="66.522" transform="translate(1065.957 2345.939)"/>
+      <rect id="Rechteck_6" data-name="Rechteck 6" class="cls-6" width="896.294" height="66.522" transform="translate(1065.957 2464.979)"/>
     </g>
-    <g id="Gruppe_2" data-name="Gruppe 2" transform="translate(-1967 846)">
-      <line id="Linie_2-2" data-name="Linie 2" class="cls-9" y1="109" x2="109" transform="translate(4184 1055)"/>
-      <path id="Pfad_5" data-name="Pfad 5" class="cls-9" d="M75,0H0" transform="translate(4292 1055.5)"/>
-      <rect id="Rechteck_7-2" data-name="Rechteck 7" class="cls-5" width="419" height="38" transform="translate(4291 1003)"/>
-    </g>
-    <g id="Gruppe_3" data-name="Gruppe 3" transform="translate(-1891 -547)">
-      <line id="Linie_2-3" data-name="Linie 2" class="cls-9" x1="94" y1="94" transform="translate(4293 1055)"/>
-      <line id="Linie_3-2" data-name="Linie 3" class="cls-9" x1="75" transform="translate(4219 1055.5)"/>
-      <rect id="Rechteck_7-3" data-name="Rechteck 7" class="cls-5" width="264" height="38" transform="translate(4031 1003)"/>
+    <g id="Gruppe_4" data-name="Gruppe 4" transform="translate(3910 -103)">
+      <g id="Gruppe_1" data-name="Gruppe 1" transform="translate(2039.277 952.481)">
+        <line id="Linie_2" data-name="Linie 2" class="cls-7" x1="334.36" y1="341.362" transform="translate(589.944 91.03)"/>
+        <line id="Linie_3" data-name="Linie 3" class="cls-7" x1="131.293" transform="translate(460.401 91.905)"/>
+        <rect id="Rechteck_7" data-name="Rechteck 7" class="cls-6" width="593.445" height="66.522" transform="translate(0 0)"/>
+      </g>
+      <g id="Gruppe_2" data-name="Gruppe 2" transform="translate(3821.362 2836.1)">
+        <line id="Linie_2-2" data-name="Linie 2" class="cls-7" y1="190.813" x2="190.813" transform="translate(0 91.03)"/>
+        <path id="Pfad_5" data-name="Pfad 5" class="cls-7" d="M131.293,0H0" transform="translate(189.062 91.905)"/>
+        <rect id="Rechteck_7-2" data-name="Rechteck 7" class="cls-6" width="733.491" height="66.522" transform="translate(187.311 0)"/>
+      </g>
+      <g id="Gruppe_3" data-name="Gruppe 3" transform="translate(3861.625 211.989)">
+        <line id="Linie_2-3" data-name="Linie 2" class="cls-7" x1="164.554" y1="164.554" transform="translate(458.651 91.03)"/>
+        <line id="Linie_3-2" data-name="Linie 3" class="cls-7" x1="131.293" transform="translate(329.108 91.905)"/>
+        <rect id="Rechteck_7-3" data-name="Rechteck 7" class="cls-6" width="462.152" height="66.522" transform="translate(0 0)"/>
+      </g>
     </g>
   </g>
 </svg>
