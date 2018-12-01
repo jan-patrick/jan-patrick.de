@@ -974,6 +974,11 @@ fieldset {
     display:inline;
 }
 
+.footerBottom {
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
 /* Responsive media queries
 ==================================================*/
 
