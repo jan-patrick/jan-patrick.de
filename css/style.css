@@ -731,7 +731,7 @@ a.active {
 
 .portfolioElement {
     height: 75vh;
-    background: url(img/portfolio/digital-twin.svg)
+    background: url(../img/portfolio/digital-twin.svg);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -750,24 +750,47 @@ a.active {
 
 #court {
     background: url(../img/portfolio/judge.jpg);
-    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #digital-twin {
     background: url(../img/portfolio/digital-twin.jpg);
-    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #sense-chess {
     background: url(../img/portfolio/sense-chess.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #lostbrick {
     background: url(../img/portfolio/lostbrick/lostbrick-menu.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #freetime {
     background: url(../img/portfolio/ich-hab-dich-auch-lieb/xmas.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .portfolioText {
