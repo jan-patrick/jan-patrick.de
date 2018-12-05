@@ -17,7 +17,7 @@
         fill: url(#linear-gradient-4);
       }
 
-      .cls-13, .cls-5 {
+      .cls-15, .cls-5 {
         fill: #3c3c3c;
       }
 
@@ -46,11 +46,19 @@
         fill: #4f4f4f;
       }
 
-      .cls-12, .cls-13 {
+      .cls-12 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-13 {
+        fill: url(#linear-gradient-6);
+      }
+
+      .cls-14, .cls-15 {
         stroke: none;
       }
 
-      .cls-14 {
+      .cls-16 {
         fill: url(#linear-gradient);
       }
     </style>
@@ -70,12 +78,20 @@
       <stop offset="0" stop-color="#505050"/>
       <stop offset="1" stop-color="#3b3b3b"/>
     </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="1" y1="0.36" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4c4c4c"/>
+      <stop offset="1" stop-color="#464646"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="1.479" y1="0.504" x2="0.062" y2="0.676" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#424242"/>
+      <stop offset="1" stop-color="#3c3c3c"/>
+    </linearGradient>
     <clipPath id="clip-portfolio">
       <rect width="2000" height="1000"/>
     </clipPath>
   </defs>
   <g id="portfolio" class="cls-1">
-    <rect class="cls-14" width="2000" height="1000"/>
+    <rect class="cls-16" width="2000" height="1000"/>
     <g id="Gruppe_1" data-name="Gruppe 1" transform="translate(94 69.891)">
       <g id="table" transform="translate(999.973 39.984)">
         <path id="Pfad_13" data-name="Pfad 13" class="cls-2" d="M617.974,465.219l.014,360.02,314.138,203.207.016-359.236Z" transform="translate(-617.974 -151.232)"/>
@@ -109,8 +125,8 @@
       <path id="LED" class="cls-10" d="M2861.478,166.958l-.245,174.995,187.624,124.59" transform="translate(-1621.553 -86.642)"/>
       <g id="digital" transform="translate(1360.521 339.013)">
         <g id="tablet" class="cls-11" transform="matrix(0.839, -0.545, 0.545, 0.839, 0, 82.452)">
-          <path class="cls-12" d="M 149.3879089355469 86.99774932861328 L 1.999996185302734 86.99774932861328 L 1.999996185302734 1.999995827674866 L 149.3879089355469 1.999995827674866 L 149.3879089355469 86.99774932861328 Z"/>
-          <path class="cls-13" d="M 4 4.000007629394531 L 4 84.99773406982422 L 147.3879089355469 84.99773406982422 L 147.3879089355469 4.000007629394531 L 4 4.000007629394531 M 0 7.62939453125e-06 L 151.3879089355469 7.62939453125e-06 L 151.3879089355469 88.99773406982422 L 0 88.99773406982422 L 0 7.62939453125e-06 Z"/>
+          <path class="cls-14" d="M 149.3879089355469 86.99774932861328 L 1.999996185302734 86.99774932861328 L 1.999996185302734 1.999995827674866 L 149.3879089355469 1.999995827674866 L 149.3879089355469 86.99774932861328 Z"/>
+          <path class="cls-15" d="M 4 4.000007629394531 L 4 84.99773406982422 L 147.3879089355469 84.99773406982422 L 147.3879089355469 4.000007629394531 L 4 4.000007629394531 M 0 7.62939453125e-06 L 151.3879089355469 7.62939453125e-06 L 151.3879089355469 88.99773406982422 L 0 88.99773406982422 L 0 7.62939453125e-06 Z"/>
         </g>
         <g id="windmillDT-2" data-name="windmillDT" transform="translate(45.68 57.634) rotate(-30)">
           <path id="Pfad_1-2" data-name="Pfad 1" class="cls-9" d="M.258,0H2.424l.258,49.033a2.892,2.892,0,0,1-1.35.446A2.785,2.785,0,0,1,0,49.033Z" transform="translate(26.85 24.26)"/>
@@ -145,8 +161,8 @@
     </g>
     <g id="Gruppe_2" data-name="Gruppe 2" transform="translate(-1221.293 46.226)">
       <g id="table-2" data-name="table" transform="translate(999.973 73.518)">
-        <path id="Pfad_13-2" data-name="Pfad 13" class="cls-2" d="M1168.025,465.219,1168,1095.548,618,1451.326l-.028-628.957Z" transform="translate(221.103 84.515)"/>
-        <path id="Pfad_14-2" data-name="Pfad 14" class="cls-3" d="M0,968.98l34.393-654.4L579.216,0,545.988,653.808Z" transform="translate(1128.77 1034.234) rotate(120)"/>
+        <path id="Pfad_13-2" data-name="Pfad 13" class="cls-12" d="M1168.025,465.219,1168,1095.548,618,1451.326l-.028-628.957Z" transform="translate(221.103 84.515)"/>
+        <path id="Pfad_14-2" data-name="Pfad 14" class="cls-13" d="M0,968.98l34.393-654.4L579.216,0,545.988,653.808Z" transform="translate(1128.77 1034.234) rotate(120)"/>
         <path id="Pfad_4-4" data-name="Pfad 4" class="cls-4" d="M0,777.488,641.182,641.182,777.488,0,136.306,136.306Z" transform="translate(839.319 1099.534) rotate(-135)"/>
       </g>
       <g id="e1-2" data-name="e1" transform="translate(1410.3 313.62)">
@@ -176,8 +192,8 @@
       <path id="LED-2" data-name="LED" class="cls-10" d="M3189.3,166.958l.428,306.384-328.5,218.134" transform="translate(-1220.309 -22.827)"/>
       <g id="digital-2" data-name="digital" transform="translate(1450.692 597.063)">
         <g id="tablet-16" data-name="tablet" class="cls-11" transform="matrix(-0.839, -0.545, 0.545, -0.839, 222.292, 275.039)">
-          <path class="cls-12" d="M 263.0526428222656 153.8188629150391 L 2 153.8188629150391 L 2 2.00001049041748 L 263.0526428222656 2.00001049041748 L 263.0526428222656 153.8188629150391 Z"/>
-          <path class="cls-13" d="M 261.0526428222656 151.8188629150391 L 261.0526428222656 4.000016212463379 L 4.000013828277588 4.000016212463379 L 4.000013828277588 151.8188629150391 L 261.0526428222656 151.8188629150391 M 265.0526428222656 155.8188629150391 L 1.371882535750046e-05 155.8188629150391 L 1.371882535750046e-05 1.600999166839756e-05 L 265.0526428222656 1.600999166839756e-05 L 265.0526428222656 155.8188629150391 Z"/>
+          <path class="cls-14" d="M 263.0526428222656 153.8188629150391 L 2 153.8188629150391 L 2 2.00001049041748 L 263.0526428222656 2.00001049041748 L 263.0526428222656 153.8188629150391 Z"/>
+          <path class="cls-15" d="M 261.0526428222656 151.8188629150391 L 261.0526428222656 4.000016212463379 L 4.000013828277588 4.000016212463379 L 4.000013828277588 151.8188629150391 L 261.0526428222656 151.8188629150391 M 265.0526428222656 155.8188629150391 L 1.371882535750046e-05 155.8188629150391 L 1.371882535750046e-05 1.600999166839756e-05 L 265.0526428222656 1.600999166839756e-05 L 265.0526428222656 155.8188629150391 Z"/>
         </g>
         <g id="windmillDT-4" data-name="windmillDT" transform="translate(148.695 208.32) rotate(-150)">
           <path id="Pfad_1-4" data-name="Pfad 1" class="cls-9" d="M4.251,86.747H.453L0,.782A5.071,5.071,0,0,1,2.367,0,4.883,4.883,0,0,1,4.7.782Z" transform="translate(31.437 0)"/>
