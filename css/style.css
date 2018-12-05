@@ -631,7 +631,11 @@ a.active {
     padding-left: 0px;
 }
 
-#website {
+#scriptText {
+    background-color: #f3f3f3;
+}
+
+#ich-hab-dich-auch-lieb {
     background-color: #f3f3f3;
 }
 
