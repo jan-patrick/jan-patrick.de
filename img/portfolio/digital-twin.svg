@@ -14,7 +14,7 @@
       }
 
       .cls-4 {
-        fill: url(#linear-gradient-4);
+        fill: #737373;
       }
 
       .cls-14, .cls-16, .cls-5 {
@@ -47,11 +47,11 @@
       }
 
       .cls-12 {
-        fill: url(#linear-gradient-5);
+        fill: url(#linear-gradient-4);
       }
 
       .cls-13 {
-        fill: url(#linear-gradient-6);
+        fill: url(#linear-gradient-5);
       }
 
       .cls-15, .cls-16 {
@@ -74,15 +74,11 @@
       <stop offset="0" stop-color="#3b3b3b"/>
       <stop offset="1" stop-color="#525252"/>
     </linearGradient>
-    <linearGradient id="linear-gradient-4" x1="0.175" y1="0.825" x2="0.832" y2="0.168" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#505050"/>
-      <stop offset="1" stop-color="#3b3b3b"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-5" x1="1" y1="0.36" x2="0" y2="1" gradientUnits="objectBoundingBox">
+    <linearGradient id="linear-gradient-4" x1="1" y1="0.36" x2="0" y2="1" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#4c4c4c"/>
       <stop offset="1" stop-color="#464646"/>
     </linearGradient>
-    <linearGradient id="linear-gradient-6" x1="1.479" y1="0.504" x2="0.062" y2="0.676" gradientUnits="objectBoundingBox">
+    <linearGradient id="linear-gradient-5" x1="1.479" y1="0.504" x2="0.062" y2="0.676" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#424242"/>
       <stop offset="1" stop-color="#3c3c3c"/>
     </linearGradient>
