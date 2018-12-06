@@ -619,7 +619,7 @@ a.active {
     color: #ffffff;
     margin-left: 15px;
     margin-top: 15%;
-    background-color: rgb(30, 20, 138, 0.7);
+    background-color: rgba(30, 20, 138, 0.7);
     padding: 10px;
 }
 
