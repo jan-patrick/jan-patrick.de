@@ -10,5 +10,5 @@
   It is under permanent construction.
   <br>
   If you have questions please write me a 
-  <a href="&#109;&#097;&#105;&#108;&#116;&#111;&#058;&#109;&#097;&#105;&#108;&#064;&#106;&#097;&#110;&#045;&#112;&#097;&#116;&#114;&#105;&#099;&#107;&#046;&#100;&#101;">mail</a>.
+  <a href="mailto:hello@jan-patrick.de">mail</a>.
 </p>
