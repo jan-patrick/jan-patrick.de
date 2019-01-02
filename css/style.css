@@ -130,6 +130,17 @@ body {
     margin-right: 20%;
 }
 
+.differentColor {
+    color: #FFFFFF;
+    border-style: none;
+}
+
+.navColor {
+    color: rgb(120, 120, 120);
+    font-size: 30px;
+    line-height: 40px;
+}
+
 /* preloader
 ==================================================*/
 
@@ -843,6 +854,10 @@ fieldset {
         font-family: 'Open Sans', sans-serif;
         font-size: 35px;
         line-height: 40px;
+    }
+    .navColor {
+        font-size: 20px;
+        line-height: 28px;
     }
     #home,
     .disply-table {
