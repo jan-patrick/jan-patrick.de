@@ -820,6 +820,10 @@ fieldset {
     padding-bottom: 0%;
 }
 
+.noBorder {
+    border-style: none;
+}
+
 /* Responsive media queries
 ==================================================*/
 
