@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Web_1920_1);
+      }
+
+      .cls-2 {
+        fill: #ffca00;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-Web_1920_1">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_1" data-name="Web 1920 – 1" class="cls-1">
+    <rect class="cls-3" width="1920" height="1080"/>
+    <g id="Gruppe_1" data-name="Gruppe 1">
+      <rect id="Rechteck_1" data-name="Rechteck 1" class="cls-2" width="1920" height="1080"/>
+      <path id="Pfad_1" data-name="Pfad 1" d="M964.5,450.9l72.7,35.3c8.2,4.4,5.1,17-4.4,17H886.9c-9.3,0-12.6-12.3-4.4-17l73.2-35.3A8.666,8.666,0,0,1,964.5,450.9Zm68.1,161.3h0a8.9,8.9,0,0,1-9-9V530.5a8.9,8.9,0,0,0-9-9h-.2a8.9,8.9,0,0,0-9,9v72.7a8.9,8.9,0,0,1-9,9H996a8.9,8.9,0,0,1-9-9V530.5a8.9,8.9,0,0,0-9-9h-.2a8.9,8.9,0,0,0-9,9v72.7a8.9,8.9,0,0,1-9,9h.4a8.9,8.9,0,0,1-9-9V530.5a8.9,8.9,0,0,0-9-9H942a8.9,8.9,0,0,0-9,9v72.7a8.9,8.9,0,0,1-9,9h-.2a8.9,8.9,0,0,1-9-9V530.5a8.9,8.9,0,0,0-9-9h-.2a8.9,8.9,0,0,0-9,9v72.7a8.9,8.9,0,0,1-9,9m-1.1,0h.4a8.9,8.9,0,0,0-9,9h0a8.9,8.9,0,0,0,9,9h146.2a8.9,8.9,0,0,0,9-9h0a8.9,8.9,0,0,0-9-9h-.2"/>
+    </g>
+  </g>
+</svg>
