@@ -28,4 +28,4 @@ fields:
         label: Image
         type: files
         max: 1
-        parent: kirby.page('photography').children.first
+        parent: kirby.page('projects').children.first
