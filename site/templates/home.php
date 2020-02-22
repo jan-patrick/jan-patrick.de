@@ -13,7 +13,12 @@
 <?php snippet('header') ?>
 
 <main>
-  <?php snippet('landing') ?>
+  
+<section>
+        <h1>
+          <?= $page->landingtext()->kt() ?>
+          </h1>
+      </section>
 
 
   <?php 

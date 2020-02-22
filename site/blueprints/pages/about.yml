@@ -28,6 +28,7 @@ columns:
         type: textarea
         size: huge
 
+
   - width: 1/2
     # Kirby has many different field types, from simple text fields to the more complex structure field that contains subfields
     # All available field types: https://getkirby.com/docs/reference/panel/fields

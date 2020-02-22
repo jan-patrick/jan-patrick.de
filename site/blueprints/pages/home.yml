@@ -10,16 +10,36 @@ icon: 🏠
 options:
   changeStatus: false
 
-# Here we define an info section and a pages section (`projects`)
+# Landing page text, what is visible when opening the website
 sections:
+  landingtext:
+    type: fields
+    label: LandingText
+fields:
+  landingtexton:
+    type: toggle
+    label: LandingTextOn
+  landingtext:
+    label: LandingText
+    type: text
+    when:
+      landingtexton: true
+    minlength: 10
+    maxlength: 1000
+
+    # Here we define an info section and a pages section (`projects`)
   info:
     headline: Info
     type: info
-    text: All content for the homepage is being pulled from the projects page.
+    text: Projects content for the homepage is being pulled from the projects page.
+
+
+ 
 
 # The projects section extends a pages section defined in the `/site/blueprints/section/album.yml` blueprint
 # More about reusing and extending sections: https://getkirby.com/docs/guide/blueprints/extending-blueprints#reusing-and-extending-sectionss
   projects:
+    type: pages
     headline: Projects
     extends: sections/albums
     status: listed

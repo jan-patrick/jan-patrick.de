@@ -1,1 +1,13 @@
 Title: Home
+
+----
+
+Landingtexton: true
+
+----
+
+Landingtext: Hey there, I'm Jan.
+
+----
+
+Projects: 
