@@ -163,7 +163,6 @@ main {
   width: 16.5rem;
   padding-top: .5rem;
 }
-
 .social a {
   margin: 0 .75rem;
   padding: .5rem 1rem;
@@ -173,4 +172,30 @@ main {
 .social a:hover {
   background: #000;
   color: #fff;
+}
+
+/* personalized settings */
+
+.fullHeightContainer {
+  height:calc(100vh - 10rem);
+  position: relative;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.landingText h1 {
+  color: rgb(80, 80, 80);
+  font-weight: normal;
+}
+
+.landingText a {
+  font-weight: normal;
+  color: black;
+  border-bottom: 2px solid black;
 }

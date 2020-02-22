@@ -15,9 +15,14 @@
 <main>
   
 <section>
-        <div class="text">
-        <h1><?= $page->landingtext()->kt() ?></h1>
-        </div>
+<div class="fullHeightContainer">
+  <div class="vertical-center">
+    <div class="text landingText">
+      <h1><?= $page->landingtext()->kt() ?></h1>
+    </div>
+  </div>
+</div>
+        
       </section>
 
 

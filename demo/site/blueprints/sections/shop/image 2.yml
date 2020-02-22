@@ -1,5 +1,0 @@
-type: files
-headline: Cover
-max: 1
-layout: cards
-info: "{{ file.dimensions }}"

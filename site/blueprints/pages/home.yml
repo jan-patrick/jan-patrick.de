@@ -25,7 +25,7 @@ fields:
     when:
       landingtexton: true
     minlength: 10
-    maxlength: 1000
+    maxlength: 700
 
     # Here we define an info section and a pages section (`projects`)
   info:

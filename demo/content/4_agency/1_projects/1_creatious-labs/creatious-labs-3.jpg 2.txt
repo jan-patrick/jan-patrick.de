@@ -1,5 +1,0 @@
-Template: agency-project-image
-
-----
-
-Sort: 3
