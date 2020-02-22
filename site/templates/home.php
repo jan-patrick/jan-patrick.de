@@ -15,9 +15,9 @@
 <main>
   
 <section>
-        <h1>
-          <?= $page->landingtext()->kt() ?>
-          </h1>
+        <div class="text">
+        <h1><?= $page->landingtext()->kt() ?></h1>
+        </div>
       </section>
 
 

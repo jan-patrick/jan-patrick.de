@@ -21,7 +21,7 @@ fields:
     label: LandingTextOn
   landingtext:
     label: LandingText
-    type: text
+    type: textarea
     when:
       landingtexton: true
     minlength: 10

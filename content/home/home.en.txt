@@ -6,7 +6,16 @@ Landingtexton: true
 
 ----
 
-Landingtext: Hey there, I'm Jan.
+Landingtext:
+
+Hey there, I'm (link: /about text: Jan).
+
+I'm a designer, currently working on my Bachelor project
+at (link: https://www.hfg-gmuend.de/ text: HfG Schwäbisch Gmünd),
+
+
+(link: https://www.bsh-group.com/ text: BSH Home Appliances Group), (link: https://ixds.com/ text: IXDS) and (link: https://www.tudelft.nl/en/ text: TU Delft)
+have been part of the journey there.
 
 ----
 
