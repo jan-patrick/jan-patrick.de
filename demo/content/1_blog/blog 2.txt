@@ -1,0 +1,29 @@
+Title: Blog
+
+----
+
+Description: Just like Medium, but better
+
+----
+
+Heading: Around the world
+
+----
+
+Subheading: in 80 ways
+
+----
+
+Limit: 6
+
+----
+
+Dateformat: d M, Y
+
+----
+
+Twitter: getkirby
+
+----
+
+Instagram: getkirby
