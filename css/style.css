@@ -602,26 +602,32 @@ a.active {
 }
 
 .portfolioElement {
-    height: 75vh;
-    background: url(../img/portfolio/digital-twin.svg);
+    height: 65vh;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    transition: transform .1s;
-    box-shadow: 0px 0px 2px var(--background-color);
+    position: relative;
+    margin: 0em;
+    padding: 0em;
+    overflow: hidden;
 }
 
-.portfolioElement:hover {
-    -ms-transform: scale(1.01); /* IE 9 */
-    -webkit-transform: scale(1.01); /* Safari 3-8 */
-    transform: scale(1.01); 
-    box-shadow: 1px 1px 4px var(--background-color);
+.portfolioElement img {
+    max-width: 100%;
+    transition: all 0.2s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+}
+
+.portfolioElement:hover img {
+    transform: scale(1.02);
 }
 
 #court {
-    background: url(../img/portfolio/courtShare.jpg);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -639,7 +645,7 @@ a.active {
 }
 
 #incorporate {
-    background: url(../img/portfolio/incorporate.jpg);
+    background: transparent;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -648,7 +654,6 @@ a.active {
 }
 
 #sense-chess {
-    background: url(../img/portfolio/sense-chess.jpg);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -677,9 +682,26 @@ a.active {
 .portfolioText {
     color: #111111;
     margin-left: 15px;
-    margin-top: 15%;
+    margin-bottom: 40%;
     background-color: var(--secondary-color);
-    padding: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 0px;
+}
+
+.portfolioText h3 {
+    padding-bottom: 0px;
+    margin-bottom: 3px;
+}
+
+.portfolioText p {
+    color: var(--text-light);
+    font-size: 20px;
+    line-height: 30px;
+    font-style: italic;
+    font-weight: 100;
+    padding-top: 0px;
+    margin-top: 0px;
 }
 
 .portfolioImgLeft {
