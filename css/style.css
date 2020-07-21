@@ -114,6 +114,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 24px;
+    background: var(--background-color);
 }
 
 .size-50 {
