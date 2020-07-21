@@ -16,14 +16,14 @@ font-family: 'Open Sans', sans-serif;
     --text-link: #505050;
     --text-link-border: #d1d1d1;
     --text-dark: #101010;
-    --blue: #3498db;
+    --blue: #1259AA;
     --green: #27ae60;
     --yellow: #feca57;
     --red: #c0392b;
     --white: #ffffff;
   }
   
-  @media (prefers-color-scheme: dark) {
+  @media (prefers-color-scheme: darkk) {
     :root {
       --background-color: #0d0d0e;
       --secondary-color: #252525;
@@ -55,9 +55,10 @@ h2 {
 }
 
 h3 {
-    line-height: 30px;
-    font-weight: 700;
     color: var(--text);
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
 }
 
 h4 {
