@@ -23,7 +23,7 @@ font-family: 'Open Sans', sans-serif;
     --white: #ffffff;
   }
   
-  @media (prefers-color-scheme: darkk) {
+  @media (prefers-color-scheme: dark) {
     :root {
       --background-color: #0d0d0e;
       --secondary-color: #252525;
