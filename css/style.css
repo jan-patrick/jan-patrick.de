@@ -421,7 +421,7 @@ a.active {
     font-family: 'Open Sans Pro', sans-serif;
     text-transform: capitalize;
     letter-spacing: 2px;
-    color: rgb(12, 0, 146);
+    color: rgb(63, 63, 63);
     font-size: 16px;
     font-weight: bold
 }
@@ -461,11 +461,11 @@ a.active {
 .timeline-event:hover .timeline-event-icon {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    background-color: rgb(12, 0, 146);
+    background-color: rgb(32, 32, 32);
 }
 
 .timeline-event:hover .timeline-event-thumbnail {
-    box-shadow: inset 40em 0 0 0 rgb(12, 0, 146);
+    box-shadow: inset 40em 0 0 0 rgb(32, 32, 32);
 }
 
 .timeline-event-copy {
@@ -500,7 +500,7 @@ a.active {
     transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
-    background-color: rgb(12, 0, 146);
+    background-color: rgb(143, 143, 143);
     outline: 10px solid #f3f3f3;
     display: block;
     margin: 0.5em 0.5em 0.5em -0.5em;
@@ -523,7 +523,7 @@ a.active {
     font-size: 12px;
     font-weight: bold;
     background-color: black;
-    box-shadow: inset 0 0 0 0em rgb(12, 0, 146);
+    box-shadow: inset 0 0 0 0em rgb(107, 107, 107);
     display: inline-block;
     margin-bottom: 1.2em;
     padding: 0.25em 1em 0.2em 1em;
@@ -599,6 +599,15 @@ a.active {
     background-size: cover;
 }
 
+#incorporate {
+    background: url(../img/portfolio/incorporate.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 #sense-chess {
     background: url(../img/portfolio/sense-chess.jpg);
     background-repeat: no-repeat;
@@ -627,10 +636,10 @@ a.active {
 }
 
 .portfolioText {
-    color: #ffffff;
+    color: #111111;
     margin-left: 15px;
     margin-top: 15%;
-    background-color: rgb(30, 20, 138);
+    background-color: rgb(243, 243, 243);
     padding: 10px;
 }
 
