@@ -13,7 +13,7 @@ font-family: 'Open Sans', sans-serif;
     --secondary-color: #f7f7f7;
     --text: #333333;
     --text-light: #999999;
-    --text-link: #505050;
+    --text-link: #575757;
     --text-link-border: #d1d1d1;
     --text-dark: #101010;
     --blue: #1259AA;
@@ -25,12 +25,12 @@ font-family: 'Open Sans', sans-serif;
   
   @media (prefers-color-scheme: dark) {
     :root {
-      --background-color: #0d0d0e;
-      --secondary-color: #252525;
-      --text: #c4c5c9;
-      --text-light: #6b6b6b;
-      --text-link: #8e8f93;
-      --text-link-border: #474747;
+      --background-color: #202020;
+      --secondary-color: #313131;
+      --text: #f0f0f0;
+      --text-light: #acacac;
+      --text-link: #cecece;
+      --text-link-border: #7c7c7c;
       --text-dark: #efefef;
     }
   }
