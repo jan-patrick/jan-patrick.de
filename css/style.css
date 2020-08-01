@@ -603,6 +603,7 @@ a.active {
 
 .portfolioElement {
     height: 65vh;
+    background-color: inherit;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -684,7 +685,7 @@ a.active {
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 40%;
-    /* background-color: var(--secondary-color); */
+    background-color: inherit;
     padding-bottom: 20px;
     padding-left: 20px;
     padding-top: 0px;
