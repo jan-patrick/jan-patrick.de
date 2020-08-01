@@ -684,7 +684,7 @@ a.active {
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 40%;
-    background-color: var(--secondary-color);
+    /* background-color: var(--secondary-color); */
     padding-bottom: 20px;
     padding-left: 20px;
     padding-top: 0px;
@@ -693,23 +693,23 @@ a.active {
 .portfolioText h3 {
     padding-bottom: 0px;
     margin-bottom: 3px;
+    font-weight: 800;
 }
 
 .portfolioText p {
-    color: var(--text-light);
+    color: var(--text);
     font-size: 20px;
     line-height: 30px;
-    font-style: italic;
     font-weight: 100;
     padding-top: 0px;
     margin-top: 0px;
 }
 
-.right {
-    color: var(--text);
-    font-size: 10px;
-    line-height: 30px;
-    font-style: normal;
+.portfolioDate  p{
+    color: var(--text-light);
+    font-size: 15px;
+    line-height: 20px;
+    font-style: italic;
 }
 
 .portfolioImgLeft {
@@ -922,6 +922,13 @@ fieldset {
         max-width: inherit;
         margin: inherit;
     }
+    .delete-table-cell-mobile {
+        float: left;
+        width: 100%;
+    }
+    .portfolioElement {
+        height: auto;
+    } 
 }
 
 @media (max-width: 768px) {
