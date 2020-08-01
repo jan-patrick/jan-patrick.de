@@ -33,6 +33,13 @@ font-family: 'Open Sans', sans-serif;
       --text-link-border: #7c7c7c;
       --text-dark: #efefef;
     }
+    img {
+        opacity: .9;
+        transition: opacity .5s ease-in-out;
+      }
+      img:hover {
+        opacity: 1;
+      }
   }
 
 
@@ -116,6 +123,7 @@ body {
     font-size: 14px;
     line-height: 24px;
     background: var(--background-color);
+    scroll-behavior: smooth;
 }
 
 .size-50 {
@@ -376,14 +384,6 @@ nav li a:hover {
 
 .bg-nav ul {
     padding: 10px;
-}
-
-#back-link {
-    font-size: 13px;
-    display: inline-block;
-    margin-top: 10px;
-    -webkit-transition: all .5s;
-    transition: all .5s;
 }
 
 a:focus {
@@ -901,6 +901,20 @@ fieldset {
 
 .noBorder {
     border-style: none;
+}
+
+.fixedBackButton {
+    position: fixed;
+    top: 30px;
+    left: 30px; 
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.fixedBackButton :hover{
+    fill: var(--blue);
+    text-decoration: none;
+    border-bottom: none;
 }
 
 /* Responsive media queries
