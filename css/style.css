@@ -944,6 +944,13 @@ fieldset {
     .portfolioElement {
         height: auto;
     } 
+    .notShownOnMobile {
+        display: none;
+    }
+    .social li {
+        float: none;
+        display: inline-block;
+    }
 }
 
 @media (max-width: 768px) {
