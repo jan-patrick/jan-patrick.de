@@ -628,6 +628,29 @@ a.active {
     transform: scale(1.02);
 }
 
+.noHover{
+    height: auto;
+    background-color: inherit;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    margin: 0em;
+    padding: 0em;
+    overflow: hidden;
+}
+
+.noHover img {
+    max-width: 100%;
+    transition: all 0.2s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+}
+
 #court {
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -980,6 +1003,14 @@ fieldset {
     .portfolio .categories-grid .categories ul li {
         list-style: none;
         margin: 10px 0;
+    }
+    .squareOnMobile {
+        max-width: 150% !important;
+        width: 150% !important;
+        height: auto;
+        transform: scale(1.5);
+        position: relative;
+        left: -25%;
     }
 }
 
